@@ -40,8 +40,47 @@ setopt inc_append_history
 zle_highlight=(isearch:bg=red region:standout special:standout)
 
 #{{{ ALIASES
+# Utility
+alias reload='source ~/.zshrc'
+
+# os x - finder
+alias o="open . &"
+
+# Quicker cd
+function cr() {
+ cd ~/workspace/$*
+}
+
+# top
+alias tu="top -o cpu"
+alias tm="top -o vsize"
+
+# kill
+alias k9="killall -9"
+function killnamed () { 
+    ps ax | grep $1 | cut -d ' ' -f 2 | xargs kill 
+}
+
+# git
+alias g="git status"
+alias ga="git add"
+alias gb="git branch"
+alias gba="git branch -a"
+alias gc="git commit -v"
+alias gcm="git commit -v -m"
+alias gco='git checkout'
+alias gd='git diff'
+alias gdm='git diff master'
+alias gl='git pull'
+alias gnp="git-notpushed"
+alias gp='git push'
+alias gst='git status'
+alias gt='git status'
+alias g='git status'
+
+
 alias netstat='netstat --numeric-ports'
-alias ls='ls -G'
+alias ls='ls -aG'
 alias less='less -R'
 #}}}
 
