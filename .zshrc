@@ -69,14 +69,15 @@ alias gba="git branch -a"
 alias gc="git commit -v"
 alias gcm="git commit -v -m"
 alias gco='git checkout'
-alias gd='git diff'
-alias gdm='git diff master'
+alias gd='git diff --color'
+alias gdm='git diff --color master'
 alias gl='git pull'
 alias gnp="git-notpushed"
 alias gp='git push'
 alias gst='git status'
 alias gt='git status'
 alias g='git status'
+alias gg='git grep'
 
 
 alias netstat='netstat --numeric-ports'
