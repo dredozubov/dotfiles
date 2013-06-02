@@ -1,0 +1,5 @@
+[user]
+	name = Denis Redozubov
+	email = denis.redozubov@gmail.com
+[core]
+	editor = /usr/bin/vim
