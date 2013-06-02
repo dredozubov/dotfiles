@@ -22,6 +22,7 @@ export EC2_HOME=~/ec2-api-tools-1.3-51254/
 export EC2_PRIVATE_KEY=~/.ec2/pk-65BZDAH6S66LSI4XSEISOMGKOEE2WD62.pem
 export EC2_CERT=~/.ec2/cert-65BZDAH6S66LSI4XSEISOMGKOEE2WD62.pem 
 export no_proxy="localhost,*.loc,127.0.0.0/8,192.168.0.0/16"
+export EDITOR="vim"
 
 export HISTSIZE=200
 export HISTFILE=~/.zsh_history
@@ -210,4 +211,4 @@ then
 fi
 
 ### Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
+export PATH="/usr/local/heroku/bin:$PATH:/usr/local/sbin"
