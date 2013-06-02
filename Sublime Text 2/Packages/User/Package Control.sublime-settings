@@ -1,0 +1,33 @@
+{
+	"auto_upgrade_last_run": null,
+	"installed_packages":
+	[
+		"Codeigniter Codeintel Helper",
+		"CoffeeLint",
+		"CoffeeScript",
+		"CoffeeScript Function Finder",
+		"Cucumber",
+		"Dayle Rees Color Schemes",
+		"Git",
+		"Package Control",
+		"Python Auto-Complete",
+		"Python Coverage",
+		"Python Flake8 Lint",
+		"Python PEP8 Autoformat",
+		"PythonTidy",
+		"Rake",
+		"Restructured Text (RST) Snippets",
+		"RSpec",
+		"RSpec (snippets and syntax)",
+		"rspec-snippets",
+		"RspecBuild",
+		"RstPreview",
+		"Ruby Coverage",
+		"Ruby on Rails snippets",
+		"RubyTest",
+		"SublimeCodeIntel",
+		"SublimeRope",
+		"Theme - Soda",
+		"Wrap Plus"
+	]
+}

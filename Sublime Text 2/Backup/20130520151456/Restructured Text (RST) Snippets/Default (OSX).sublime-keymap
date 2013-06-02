@@ -1,0 +1,23 @@
+[
+    {
+        "keys": ["super+b"], "command": "strongemphasis"
+    }, {
+        "keys": ["super+i"], "command": "emphasis"
+    }, {
+        "keys": ["super+k"], "command": "literal"
+    }, {
+        "keys": ["super+shift+t"], "command": "table"
+    }, {
+        "keys": ["super+shift+r+t"], "command": "flowtable"
+    }, { "keys": ["enter"], "command": "smart_list", "context":
+          [
+            { "key": "selector", "operator": "equal", "operand": "text.restructuredtext" },
+            { "key": "preceding_text", "operator": "regex_contains", "operand": "^\\s*([-+\\*\\|*]|(\\d+|[a-y]|[A-Y])\\.+)\\s+" }
+           ]
+    }, { "keys": ["tab"], "command": "smart_header", "context":
+          [
+            { "key": "selector", "operator": "equal", "operand": "text.restructuredtext" },
+            { "key": "preceding_text", "operator": "regex_contains", "operand": "^[=\\-\\*\\+]+" }
+           ]
+   }
+]

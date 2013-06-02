@@ -1,0 +1,4 @@
+{
+	"last_test_run": "ruby -c monitoring_riemann_spec.rb",
+	"last_test_working_dir": "/Users/dr/workspace/eviterra"
+}

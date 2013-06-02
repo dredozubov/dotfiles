@@ -1,0 +1,7 @@
+{
+	// "cmd": ["ruby", "$file"],
+    // "cmd": ["/Users/dr/.rvm/bin/rvm-auto-ruby", "$file"],
+    "cmd": ["/Users/dr/bin/rvm_ruby", "$file"],
+	"file_regex": "^(...*?):([0-9]*):?([0-9]*)",
+	"selector": "source.ruby"
+}

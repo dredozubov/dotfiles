@@ -1,0 +1,4205 @@
+{
+	"folder_history":
+	[
+		"/Users/dr/workspace/chef-repo",
+		"/Users/dr/.rvm/gems/ruby-1.9.3-p327@eviterra/gems",
+		"/Users/dr/.rvm/gems/ruby-1.9.3-p327@eviterra/gems/rspec-2.11.0",
+		"/Users/dr/.rvm/gems/ruby-1.9.3-p327@eviterra/bundler/gems/log_weasel-38a83511e3ca",
+		"/Users/dr/.rvm/gems/ruby-1.9.3-p327@eviterra/gems/log_weasel-0.0.7",
+		"/Users/dr/.rvm/gems/ruby-1.9.3-p327@eviterra/gems/rails-3.2.12",
+		"/Users/dr/.rvm/gems/ruby-1.9.3-p0@eviterra/gems/factory_girl-4.1.0",
+		"/Users/dr/trunk/factory_girl",
+		"/Users/dr/workspace/eviterra"
+	],
+	"last_window_id": 18,
+	"settings":
+	{
+		"new_window_height": 852.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"openstruct",
+						"openstruct"
+					],
+					[
+						"s",
+						"s	(local, instance)"
+					],
+					[
+						"x",
+						"x	(local, instance)"
+					],
+					[
+						"y",
+						"y	(local, instance)"
+					],
+					[
+						"t",
+						"t"
+					],
+					[
+						"de",
+						"destroyArray"
+					],
+					[
+						"next",
+						"next_with_same_number_of_bits"
+					],
+					[
+						"fro",
+						"from_subset"
+					],
+					[
+						"Bits",
+						"Bits"
+					]
+				]
+			},
+			"build_system": "Packages/CoffeeScript/CoffeeScript.sublime-build",
+			"command_palette":
+			{
+				"height": 47.0,
+				"selected_items":
+				[
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"wrap",
+						"Word Wrap: Toggle"
+					],
+					[
+						"syntax ruby",
+						"Set Syntax: Ruby"
+					],
+					[
+						"upgrade",
+						"Package Control: Upgrade Package"
+					],
+					[
+						"upd",
+						"Package Control: Upgrade/Overwrite All Packages"
+					],
+					[
+						"remove pa",
+						"Package Control: Remove Package"
+					],
+					[
+						"remove",
+						"Package Control: Remove Package"
+					],
+					[
+						"install ",
+						"Package Control: Install Package"
+					],
+					[
+						"syntax cucum",
+						"Set Syntax: Cucumber Steps"
+					],
+					[
+						"rst pr",
+						"RST Preview"
+					],
+					[
+						"previ",
+						"RST Preview"
+					],
+					[
+						"syntax rst",
+						"Set Syntax: reStructuredText"
+					],
+					[
+						"rst",
+						"RST Preview"
+					],
+					[
+						"syntax coff",
+						"Set Syntax: CoffeeScript"
+					],
+					[
+						"package",
+						"Package Control: List Packages"
+					],
+					[
+						"rope",
+						"Rope Refactoring: Rename"
+					],
+					[
+						"renam",
+						"Rope Refactoring: Rename"
+					],
+					[
+						"synta ru",
+						"Set Syntax: Ruby"
+					],
+					[
+						"git diff",
+						"Git: Diff All"
+					],
+					[
+						"instal",
+						"Package Control: Install Package"
+					],
+					[
+						"rspec",
+						"Set Syntax: RSpec"
+					],
+					[
+						"rst pre",
+						"RST Preview"
+					],
+					[
+						"rst ",
+						"RST Preview"
+					],
+					[
+						"rstpre",
+						"RST Preview"
+					],
+					[
+						"rstpr",
+						"RST Preview"
+					],
+					[
+						"rubytest",
+						"RubyTest: Switch between code and test"
+					],
+					[
+						"",
+						"Bookmarks: Toggle"
+					],
+					[
+						"test",
+						"RubyTest: Show Test Panel"
+					],
+					[
+						"ruby",
+						"RubyTest: Verify Syntax"
+					],
+					[
+						"package remove",
+						"Package Control: Remove Package"
+					],
+					[
+						"pep",
+						"User: Python PEP8 Autoformat"
+					],
+					[
+						"python",
+						"User: Python PEP8 Autoformat"
+					],
+					[
+						"git diff ",
+						"Git: Diff All"
+					],
+					[
+						"git log",
+						"Git: Log All"
+					],
+					[
+						"git",
+						"Git: Commit history"
+					],
+					[
+						"git ",
+						"Git: Commit history"
+					],
+					[
+						"packag insta",
+						"Package Control: Install Package"
+					],
+					[
+						"color",
+						"Package Control: Add Repository"
+					],
+					[
+						"comment",
+						"Toggle Comment"
+					]
+				],
+				"width": 602.0
+			},
+			"console":
+			{
+				"height": 139.0
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/Users/dr/workspace/eviterra/config/environments/production.rb",
+				"/Users/dr/workspace/eviterra/lib/middleware.rb",
+				"/Users/dr/workspace/eviterra/lib/iata_stash.rb",
+				"/Users/dr/workspace/eviterra/config/application.rb",
+				"/Users/dr/workspace/eviterra/app/middleware/pid_middleware.rb",
+				"/Users/dr/workspace/eviterra/lib/action_dispatch_request.rb",
+				"/Users/dr/workspace/eviterra/config/environment.rb",
+				"/Users/dr/workspace/eviterra/app/controllers/pricer_controller.rb",
+				"/Users/dr/workspace/eviterra/lib/mux.rb",
+				"/Users/dr/workspace/eviterra/app/models/pricer_form.rb",
+				"/Users/dr/workspace/eviterra/app/models/destination.rb",
+				"/Users/dr/workspace/eviterra/lib/amadeus.rb",
+				"/Users/dr/workspace/eviterra/lib/amadeus/session.rb",
+				"/Users/dr/workspace/eviterra/lib/amadeus/response/fare_master_pricer_travel_board_search.rb",
+				"/Users/dr/workspace/eviterra/app/models/recommendation.rb",
+				"/Users/dr/workspace/eviterra/spec/api/search_spec.rb",
+				"/Users/dr/workspace/eviterra/profiling/pricer_prof.rb",
+				"/Users/dr/workspace/eviterra/config/initializers/airbrake.rb",
+				"/Users/dr/workspace/eviterra/config.ru",
+				"/Users/dr/workspace/eviterra/config/initializers/profiling.rb",
+				"/Users/dr/workspace/eviterra/Gemfile.lock",
+				"/Users/dr/workspace/eviterra/Gemfile",
+				"/Users/dr/workspace/eviterra/config/environments/profiling.rb",
+				"/Users/dr/workspace/eviterra/config/database.yml",
+				"/Users/dr/workspace/eviterra/config/mongoid.yml",
+				"/Users/dr/workspace/eviterra/config/application_local.rb",
+				"/Users/dr/workspace/eviterra/config/initializers/test_inititalizer.rb.example",
+				"/Users/dr/workspace/eviterra/lib/strategy/amadeus.rb",
+				"/Users/dr/workspace/eviterra/app/models/location.rb",
+				"/Users/dr/workspace/eviterra/config/environments/development.rb",
+				"/Users/dr/workspace/eviterra/.gitignore",
+				"/Users/dr/workspace/eviterra/app/controllers/profile/web.rb",
+				"/Users/dr/workspace/eviterra/doc/Pricing.html",
+				"/Users/dr/workspace/eviterra/Guardfile",
+				"/Users/dr/workspace/eviterra/.pryrc",
+				"/Users/dr/workspace/eviterra/app/models/city.rb",
+				"/Users/dr/workspace/eviterra/spec/factories.rb",
+				"/Users/dr/workspace/eviterra/lib/conf.rb",
+				"/Users/dr/workspace/eviterra/config/defaults.yml",
+				"/Users/dr/workspace/eviterra/.yardoc/objects/root.dat",
+				"/Users/dr/Library/Application Support/Sublime Text 2/Packages/SublimeCodeIntel/Base File.sublime-settings",
+				"/Users/dr/workspace/eviterra/spec/lib/strategy_amadeus_spec.rb",
+				"/Users/dr/workspace/eviterra/.yardoc/proxy_types",
+				"/Users/dr/workspace/eviterra/lib/strategy/amadeus/booking.rb",
+				"/Users/dr/workspace/eviterra/lib/amadeus/request/fare_master_pricer_travel_board_search.rb",
+				"/Users/dr/workspace/eviterra/config/schedule.rb",
+				"/Users/dr/workspace/eviterra/lib/amadeus/macros.rb",
+				"/Users/dr/workspace/eviterra/lib/commission.rb",
+				"/Users/dr/workspace/eviterra/config/commissions.rb",
+				"/Users/dr/workspace/eviterra/lib/amadeus/fixtures.rb",
+				"/Users/dr/workspace/eviterra/lib/amadeus/service.rb",
+				"/Users/dr/workspace/eviterra/.failures",
+				"/Users/dr/workspace/eviterra/.rspec",
+				"/Users/dr/workspace/eviterra/lib/amadeus/response/air_flight_info.rb",
+				"/Users/dr/workspace/eviterra/lib/amadeus/request/air_flight_info.rb",
+				"/Users/dr/workspace/eviterra/lib/strategy.rb",
+				"/Users/dr/workspace/eviterra/lib/strategy/base.rb",
+				"/Users/dr/workspace/eviterra/app/models/stored_flight.rb",
+				"/Users/dr/workspace/eviterra/.rvmrc",
+				"/Users/dr/workspace/eviterra/lib/key_value_init.rb",
+				"/Users/dr/workspace/eviterra/lib/pricing/recommendation.rb",
+				"/Users/dr/workspace/eviterra/config/initializers/console_factories.rb",
+				"/Users/dr/workspace/eviterra/.pryrc.rb",
+				"/Users/dr/workspace/eviterra/spec/support/factory_girl.rb",
+				"/Users/dr/workspace/eviterra/config/deploy.rb",
+				"/Users/dr/workspace/eviterra/features/complete.feature",
+				"/Users/dr/workspace/eviterra/db/migrate/20101226041600_enlarge_airline_interlines.rb",
+				"/Users/dr/workspace/eviterra/app/views/shared/_header.html.erb",
+				"/Users/dr/workspace/sublime-projects/eviterra",
+				"/Users/dr/workspace/aesthetic/templates/post_detail.html",
+				"/Users/dr/cv_english.txt",
+				"/Users/dr/workspace/aesthetic/templates/base.html",
+				"/Users/dr/workspace/aesthetic/content/octave-osx.rst",
+				"/Users/dr/workspace/aesthetic/content/bithacks.rst",
+				"/Users/dr/workspace/aesthetic/content/sleep.rst",
+				"/Users/dr/workspace/aesthetic/templates/post_list.html",
+				"/Users/dr/workspace/aesthetic/static/css/style.css",
+				"/Users/dr/workspace/aesthetic/settings/base.py",
+				"/Users/dr/workspace/aesthetic/fabfile.py",
+				"/Users/dr/workspace/aesthetic/blog/models.py",
+				"/Users/dr/workspace/aesthetic/content/sublime-rvm.rst",
+				"/Users/dr/workspace/Algo2/week5/tsp.c",
+				"/Users/dr/workspace/Algo2/week5/tsp.py",
+				"/Users/dr/workspace/pollster/tests.rb",
+				"/Users/dr/workspace/pollster/polls/inclusive_education.yaml",
+				"/Users/dr/workspace/pollster/db.rb",
+				"/Users/dr/.rvm/gems/ruby-1.9.2-p290@pollster/gems/barista-1.3.0/lib/barista.rb",
+				"/Users/dr/.rvm/gems/ruby-1.9.2-p290@pollster/gems/barista-1.3.0/lib/barista/helpers.rb",
+				"/Users/dr/workspace/pollster/public/js/application.coffee",
+				"/Users/dr/workspace/pollster/views/_q_method.haml",
+				"/Users/dr/workspace/pollster/polltypes.rb",
+				"/Users/dr/workspace/pollster/views/poll.haml",
+				"/Users/dr/workspace/pollster/polls/test.yaml",
+				"/Users/dr/workspace/pollster/helpers.rb",
+				"/Users/dr/workspace/pollster/poll.rb",
+				"/Users/dr/workspace/pollster/views/_radio.haml",
+				"/Users/dr/workspace/pollster/views/thank_you.haml",
+				"/Users/dr/workspace/pollster/views/layout.haml",
+				"/Users/dr/workspace/pollster/config.ru",
+				"/Users/dr/workspace/pollster/views/_text_input.haml",
+				"/Users/dr/workspace/pollster/views/_multiple_with_input.haml",
+				"/Users/dr/workspace/pollster/views/_multiple.haml",
+				"/Users/dr/trunk/CoffeeScript-Sublime-Plugin/README.md",
+				"/Users/dr/trunk/CoffeeScript-Sublime-Plugin/Snippets/Console Log Object.tmSnippet",
+				"/Users/dr/Library/Application Support/Sublime Text 2/Packages/CoffeeScript/Snippets/Class.tmSnippet",
+				"/Users/dr/Library/Application Support/Sublime Text 2/Packages/CoffeeScript/Snippets/log.tmSnippet",
+				"/Users/dr/Library/Application Support/Sublime Text 2/Packages/User/CoffeeScript.sublime-settings",
+				"/Users/dr/workspace/pollster/views/application.coffee",
+				"/Users/dr/.rvm/gems/ruby-1.9.2-p290@pollster/gems/barista-1.3.0/lib/barista/compiler.rb",
+				"/Users/dr/workspace/pollster/Procfile",
+				"/Users/dr/workspace/pollster/views/404.haml",
+				"/Users/dr/workspace/pollster/views/500.haml",
+				"/Users/dr/workspace/pollster/pollster.rb",
+				"/Users/dr/workspace/pollster/views/_input.haml",
+				"/Users/dr/workspace/pollster/views/_checkbox.haml",
+				"/Users/dr/.rvm/gems/ruby-1.9.2-p290@pollster/gems/haml-3.1.7/lib/haml/helpers/action_view_mods.rb",
+				"/Users/dr/workspace/pollster/Gemfile",
+				"/Users/dr/.rvm/gems/ruby-1.9.2-p290@pollster/gems/haml-3.1.7/lib/haml/engine.rb",
+				"/Users/dr/workspace/pollster/config.rb",
+				"/Users/dr/.rvm/gems/ruby-1.9.2-p290@pollster/gems/haml-3.1.7/lib/haml/compiler.rb",
+				"/Users/dr/Library/Application Support/Sublime Text 2/Packages/User/Ruby Haml.sublime-settings",
+				"/Users/dr/.rvm/gems/ruby-1.9.2-p290@pollster/gems/haml-3.1.7/lib/haml/helpers/action_view_extensions.rb",
+				"/Users/dr/workspace/pollster/polls/corrupted.yaml",
+				"/Users/dr/.rvm/gems/ruby-1.9.2-p290@pollster/gems/haml-3.1.7/Rakefile",
+				"/Users/dr/workspace/pollster/run.rb",
+				"/Users/dr/workspace/pollster/views/tests.rb",
+				"/Users/dr/workspace/pollster/views/about.haml",
+				"/Users/dr/workspace/pollster/public/css/style.css"
+			],
+			"find":
+			{
+				"height": 35.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+					"",
+					"1"
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"udp",
+					"subscribe",
+					"progname",
+					"syslog",
+					"services",
+					"middleware",
+					"Logger",
+					"log",
+					"load_form_from_cache",
+					"recommendations",
+					"fare",
+					"load_form_from_cache",
+					"get_by_search",
+					"query_key",
+					"Partner",
+					"Pricer",
+					"valid?",
+					"cache",
+					"save_to_cache",
+					"json",
+					"airbrake",
+					"bullet",
+					"json",
+					"airbrake",
+					"Mux.new",
+					" \n",
+					"rails",
+					"profile",
+					"Mux",
+					"params",
+					"PricerForm",
+					".pricer",
+					"form",
+					"profile",
+					"if",
+					"pricer",
+					"booking",
+					"async_amadeus_driver",
+					"adsf",
+					"recommendations",
+					"api",
+					"sirena",
+					"fare_master",
+					"lite",
+					"pricer",
+					"lite",
+					"amadeus_pricer",
+					"form",
+					"production",
+					"env",
+					"amad",
+					"interline",
+					"import",
+					"air_flight",
+					"initialize",
+					"multi",
+					"recommendation",
+					"air_flight",
+					"context",
+					"air_flight",
+					"Strategy::amadeus",
+					"multi",
+					"pnr_add_multi",
+					"pnr_",
+					"Strategy::Amadeus",
+					"spork",
+					"before",
+					"booking",
+					"Strategy",
+					"tst_resp",
+					"response",
+					"amadeus::Response",
+					"pnr_retrieve",
+					"retrieve",
+					"pnr_retrieve",
+					"response",
+					"amadeus_response",
+					"air_flight_info",
+					"air_info",
+					"air_flight",
+					"air_flight_info_result",
+					"stab",
+					"code_share",
+					"recom",
+					"recomme",
+					"build",
+					"order",
+					"factory",
+					":order",
+					"subject",
+					"build",
+					"order",
+					"validating",
+					"describe",
+					"MOWR2233B",
+					"context",
+					"validating",
+					"ticket",
+					"submit",
+					"UI",
+					"branch",
+					"staging",
+					"stages",
+					"staging",
+					"ext",
+					"rb-side",
+					"rspec",
+					"eviterra",
+					"sinatra",
+					"22px",
+					"20px",
+					"internal",
+					"@@connection",
+					"unless",
+					"collect",
+					"required",
+					"log",
+					"map",
+					":coffee",
+					"log",
+					"span",
+					"missing",
+					"map",
+					"each",
+					"color",
+					"blue",
+					"fifth",
+					"toCamel"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"sirena = sirena_price",
+					"amadeus",
+					"kosaraju",
+					"append",
+					"",
+					"%f",
+					"float",
+					"  puts \"s[0]: #{s[0]}\"\n",
+					"1\n",
+					"  puts \"s[0]: #{s[0]}\"\n",
+					"1"
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 0.0
+			},
+			"input":
+			{
+				"height": 33.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 218.0
+			},
+			"replace":
+			{
+				"height": 64.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+					[
+						"iatastash",
+						"lib/iata_stash.rb"
+					],
+					[
+						"recommendation",
+						"app/models/recommendation.rb"
+					],
+					[
+						"amadeussession",
+						"lib/amadeus/session.rb"
+					],
+					[
+						"amadeus",
+						"lib/amadeus.rb"
+					],
+					[
+						"mux",
+						"lib/mux.rb"
+					],
+					[
+						"pricerform",
+						"app/models/pricer_form.rb"
+					],
+					[
+						"pricer",
+						"app/controllers/pricer_controller.rb"
+					],
+					[
+						"config.ru",
+						"config.ru"
+					],
+					[
+						"application",
+						"config/application.rb"
+					],
+					[
+						"lib/ama",
+						"lib/amadeus.rb"
+					],
+					[
+						"pricing",
+						"doc/Pricing.html"
+					],
+					[
+						"pryrc",
+						".pryrc"
+					],
+					[
+						"city",
+						"app/models/city.rb"
+					],
+					[
+						"location",
+						"app/models/location.rb"
+					],
+					[
+						"pricer_form",
+						"app/models/pricer_form.rb"
+					],
+					[
+						"factori",
+						"spec/factories.rb"
+					],
+					[
+						"fare_master_pricer_travel_board_search",
+						"lib/amadeus/request/fare_master_pricer_travel_board_search.rb"
+					],
+					[
+						"mux.rb",
+						"lib/mux.rb"
+					],
+					[
+						"macros",
+						"lib/amadeus/macros.rb"
+					],
+					[
+						"commis",
+						"config/commissions.rb"
+					],
+					[
+						"lib/amadeus.rb",
+						"lib/amadeus.rb"
+					],
+					[
+						"strategy/amadeus/book",
+						"lib/strategy/amadeus/booking.rb"
+					],
+					[
+						"response/air_flight",
+						"lib/amadeus/response/air_flight_info.rb"
+					],
+					[
+						"air_flight_info.rb",
+						"lib/amadeus/request/air_flight_info.rb"
+					],
+					[
+						"fixture",
+						"lib/amadeus/fixtures.rb"
+					],
+					[
+						"amadeus/macros",
+						"lib/amadeus/macros.rb"
+					],
+					[
+						"models/store",
+						"app/models/stored_flight.rb"
+					],
+					[
+						"recoment",
+						"lib/pricing/recommendation.rb"
+					],
+					[
+						"console_",
+						"config/initializers/console_factories.rb"
+					],
+					[
+						"rvmr",
+						".rvmrc"
+					],
+					[
+						"factory",
+						"spec/support/factory_girl.rb"
+					],
+					[
+						"factore",
+						"spec/factories.rb"
+					],
+					[
+						"keyval",
+						"lib/key_value_init.rb"
+					],
+					[
+						"strag",
+						"lib/strategy.rb"
+					],
+					[
+						"production",
+						"config/environments/production.rb"
+					],
+					[
+						"enlarge",
+						"db/migrate/20101226041600_enlarge_airline_interlines.rb"
+					],
+					[
+						"tsp.txt",
+						"week5/tsp.txt"
+					],
+					[
+						"bellman",
+						"/Users/dr/workspace/Algo2/week4/bellmanford.py"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 500.0,
+				"selected_items":
+				[
+					[
+						"",
+						"/Users/dr/workspace/rubymonk/rubymonk.sublime-project"
+					]
+				],
+				"width": 380.0
+			},
+			"show_minimap": true,
+			"show_open_files": true,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 234.0,
+			"status_bar_visible": true
+		},
+		"new_window_width": 1440.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"do",
+						"do"
+					],
+					[
+						"no",
+						"no"
+					],
+					[
+						"be",
+						"be_same_array_as"
+					],
+					[
+						"openstruct",
+						"openstruct"
+					],
+					[
+						"s",
+						"s	(local, instance)"
+					],
+					[
+						"x",
+						"x	(local, instance)"
+					],
+					[
+						"y",
+						"y	(local, instance)"
+					],
+					[
+						"t",
+						"t"
+					],
+					[
+						"de",
+						"destroyArray"
+					],
+					[
+						"next",
+						"next_with_same_number_of_bits"
+					],
+					[
+						"fro",
+						"from_subset"
+					],
+					[
+						"Bits",
+						"Bits"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/Users/dr/workspace/eviterra/lib/stat_counters.rb",
+					"settings":
+					{
+						"buffer_size": 2682,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/dr/workspace/eviterra/config/defaults.yml",
+					"settings":
+					{
+						"buffer_size": 3626,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/dr/workspace/eviterra/lib/monitoring.rb",
+					"settings":
+					{
+						"buffer_size": 316,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/dr/workspace/eviterra/lib/monitoring/benchmarkable.rb",
+					"settings":
+					{
+						"buffer_size": 479,
+						"line_ending": "Unix",
+						"name": "# encoding: utf-8"
+					}
+				},
+				{
+					"file": "/Users/dr/workspace/eviterra/lib/monitoring/subscribers/request_performance.rb",
+					"settings":
+					{
+						"buffer_size": 1556,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/dr/workspace/eviterra/lib/monitoring/subscribers/benchmarking.rb",
+					"settings":
+					{
+						"buffer_size": 424,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/dr/workspace/eviterra/lib/monitoring/subscribers.rb",
+					"settings":
+					{
+						"buffer_size": 227,
+						"line_ending": "Unix",
+						"name": "#encoding: utf-8"
+					}
+				},
+				{
+					"file": "/Users/dr/workspace/eviterra/lib/monitoring/riemann_connection.rb",
+					"settings":
+					{
+						"buffer_size": 1146,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/dr/workspace/eviterra/lib/mux.rb",
+					"settings":
+					{
+						"buffer_size": 7190,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/dr/workspace/eviterra/lib/curl_helper.rb",
+					"settings":
+					{
+						"buffer_size": 695,
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "Packages/CoffeeScript/CoffeeScript.sublime-build",
+			"command_palette":
+			{
+				"height": 47.0,
+				"selected_items":
+				[
+					[
+						"remove",
+						"Package Control: Remove Package"
+					],
+					[
+						"wrap",
+						"Word Wrap: Toggle"
+					],
+					[
+						"rspec",
+						"Set Syntax: RSpec"
+					],
+					[
+						"ruby",
+						"Set Syntax: Ruby"
+					],
+					[
+						"ruby ",
+						"RubyTest: Verify Syntax"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"syntax ruby",
+						"Set Syntax: Ruby"
+					],
+					[
+						"upgrade",
+						"Package Control: Upgrade Package"
+					],
+					[
+						"upd",
+						"Package Control: Upgrade/Overwrite All Packages"
+					],
+					[
+						"remove pa",
+						"Package Control: Remove Package"
+					],
+					[
+						"install ",
+						"Package Control: Install Package"
+					],
+					[
+						"syntax cucum",
+						"Set Syntax: Cucumber Steps"
+					],
+					[
+						"rst pr",
+						"RST Preview"
+					],
+					[
+						"previ",
+						"RST Preview"
+					],
+					[
+						"syntax rst",
+						"Set Syntax: reStructuredText"
+					],
+					[
+						"rst",
+						"RST Preview"
+					],
+					[
+						"syntax coff",
+						"Set Syntax: CoffeeScript"
+					],
+					[
+						"package",
+						"Package Control: List Packages"
+					],
+					[
+						"rope",
+						"Rope Refactoring: Rename"
+					],
+					[
+						"renam",
+						"Rope Refactoring: Rename"
+					],
+					[
+						"synta ru",
+						"Set Syntax: Ruby"
+					],
+					[
+						"git diff",
+						"Git: Diff All"
+					],
+					[
+						"instal",
+						"Package Control: Install Package"
+					],
+					[
+						"rst pre",
+						"RST Preview"
+					],
+					[
+						"rst ",
+						"RST Preview"
+					],
+					[
+						"rstpre",
+						"RST Preview"
+					],
+					[
+						"rstpr",
+						"RST Preview"
+					],
+					[
+						"rubytest",
+						"RubyTest: Switch between code and test"
+					],
+					[
+						"",
+						"Bookmarks: Toggle"
+					],
+					[
+						"test",
+						"RubyTest: Show Test Panel"
+					],
+					[
+						"package remove",
+						"Package Control: Remove Package"
+					],
+					[
+						"pep",
+						"User: Python PEP8 Autoformat"
+					],
+					[
+						"python",
+						"User: Python PEP8 Autoformat"
+					],
+					[
+						"git diff ",
+						"Git: Diff All"
+					],
+					[
+						"git log",
+						"Git: Log All"
+					],
+					[
+						"git",
+						"Git: Commit history"
+					],
+					[
+						"git ",
+						"Git: Commit history"
+					],
+					[
+						"packag insta",
+						"Package Control: Install Package"
+					],
+					[
+						"color",
+						"Package Control: Add Repository"
+					],
+					[
+						"comment",
+						"Toggle Comment"
+					]
+				],
+				"width": 602.0
+			},
+			"console":
+			{
+				"height": 139.0
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/Users/dr/workspace/eviterra/config/initializers/benchmark_monitoring.rb",
+				"/Users/dr/workspace/eviterra/spec/lib/monitoring_riemann_spec.rb",
+				"/Users/dr/workspace/eviterra/lib/mux.rb",
+				"/Users/dr/workspace/eviterra/lib/payu.rb",
+				"/Users/dr/workspace/eviterra/app/controllers/application_controller.rb",
+				"/Users/dr/workspace/eviterra/config/application.rb",
+				"/Users/dr/workspace/eviterra/app/controllers/pricer_controller.rb",
+				"/Users/dr/workspace/eviterra/lib/monitoring.rb",
+				"/Users/dr/workspace/eviterra/config/deploy.rb",
+				"/Users/dr/workspace/eviterra/app/controllers/profile/web.rb",
+				"/Users/dr/workspace/eviterra/config/environments/development.rb",
+				"/Users/dr/workspace/eviterra/config/environments/production.rb",
+				"/Users/dr/workspace/eviterra/spec/support/matchers/be_same_array_as.rb",
+				"/Users/dr/workspace/eviterra/spec/lib/strategy_amadeus_spec.rb",
+				"/Users/dr/workspace/eviterra/spec/spec_helper.rb",
+				"/Users/dr/workspace/eviterra/spec/lib/strategy_sirena_spec.rb",
+				"/Users/dr/workspace/eviterra/Gemfile",
+				"/Users/dr/workspace/eviterra/spec/lib/payu_spec.rb",
+				"/Users/dr/workspace/eviterra/lib/middleware.rb",
+				"/Users/dr/workspace/eviterra/lib/iata_stash.rb",
+				"/Users/dr/workspace/eviterra/app/middleware/pid_middleware.rb",
+				"/Users/dr/workspace/eviterra/lib/action_dispatch_request.rb",
+				"/Users/dr/workspace/eviterra/config/environment.rb",
+				"/Users/dr/workspace/eviterra/app/models/pricer_form.rb",
+				"/Users/dr/workspace/eviterra/app/models/destination.rb",
+				"/Users/dr/workspace/eviterra/lib/amadeus.rb",
+				"/Users/dr/workspace/eviterra/lib/amadeus/session.rb",
+				"/Users/dr/workspace/eviterra/lib/amadeus/response/fare_master_pricer_travel_board_search.rb",
+				"/Users/dr/workspace/eviterra/app/models/recommendation.rb",
+				"/Users/dr/workspace/eviterra/spec/api/search_spec.rb",
+				"/Users/dr/workspace/eviterra/profiling/pricer_prof.rb",
+				"/Users/dr/workspace/eviterra/config/initializers/airbrake.rb",
+				"/Users/dr/workspace/eviterra/config.ru",
+				"/Users/dr/workspace/eviterra/config/initializers/profiling.rb",
+				"/Users/dr/workspace/eviterra/Gemfile.lock",
+				"/Users/dr/workspace/eviterra/config/environments/profiling.rb",
+				"/Users/dr/workspace/eviterra/config/database.yml",
+				"/Users/dr/workspace/eviterra/config/mongoid.yml",
+				"/Users/dr/workspace/eviterra/config/application_local.rb",
+				"/Users/dr/workspace/eviterra/config/initializers/test_inititalizer.rb.example",
+				"/Users/dr/workspace/eviterra/lib/strategy/amadeus.rb",
+				"/Users/dr/workspace/eviterra/app/models/location.rb",
+				"/Users/dr/workspace/eviterra/.gitignore",
+				"/Users/dr/workspace/eviterra/doc/Pricing.html",
+				"/Users/dr/workspace/eviterra/Guardfile",
+				"/Users/dr/workspace/eviterra/.pryrc",
+				"/Users/dr/workspace/eviterra/app/models/city.rb",
+				"/Users/dr/workspace/eviterra/spec/factories.rb",
+				"/Users/dr/workspace/eviterra/lib/conf.rb",
+				"/Users/dr/workspace/eviterra/config/defaults.yml",
+				"/Users/dr/workspace/eviterra/.yardoc/objects/root.dat",
+				"/Users/dr/Library/Application Support/Sublime Text 2/Packages/SublimeCodeIntel/Base File.sublime-settings",
+				"/Users/dr/workspace/eviterra/.yardoc/proxy_types",
+				"/Users/dr/workspace/eviterra/lib/strategy/amadeus/booking.rb",
+				"/Users/dr/workspace/eviterra/lib/amadeus/request/fare_master_pricer_travel_board_search.rb",
+				"/Users/dr/workspace/eviterra/config/schedule.rb",
+				"/Users/dr/workspace/eviterra/lib/amadeus/macros.rb",
+				"/Users/dr/workspace/eviterra/lib/commission.rb",
+				"/Users/dr/workspace/eviterra/config/commissions.rb",
+				"/Users/dr/workspace/eviterra/lib/amadeus/fixtures.rb",
+				"/Users/dr/workspace/eviterra/lib/amadeus/service.rb",
+				"/Users/dr/workspace/eviterra/.failures",
+				"/Users/dr/workspace/eviterra/.rspec",
+				"/Users/dr/workspace/eviterra/lib/amadeus/response/air_flight_info.rb",
+				"/Users/dr/workspace/eviterra/lib/amadeus/request/air_flight_info.rb",
+				"/Users/dr/workspace/eviterra/lib/strategy.rb",
+				"/Users/dr/workspace/eviterra/lib/strategy/base.rb",
+				"/Users/dr/workspace/eviterra/app/models/stored_flight.rb",
+				"/Users/dr/workspace/eviterra/.rvmrc",
+				"/Users/dr/workspace/eviterra/lib/key_value_init.rb",
+				"/Users/dr/workspace/eviterra/lib/pricing/recommendation.rb",
+				"/Users/dr/workspace/eviterra/config/initializers/console_factories.rb",
+				"/Users/dr/workspace/eviterra/.pryrc.rb",
+				"/Users/dr/workspace/eviterra/spec/support/factory_girl.rb",
+				"/Users/dr/workspace/eviterra/features/complete.feature",
+				"/Users/dr/workspace/eviterra/db/migrate/20101226041600_enlarge_airline_interlines.rb",
+				"/Users/dr/workspace/eviterra/app/views/shared/_header.html.erb",
+				"/Users/dr/workspace/sublime-projects/eviterra",
+				"/Users/dr/workspace/aesthetic/templates/post_detail.html",
+				"/Users/dr/cv_english.txt",
+				"/Users/dr/workspace/aesthetic/templates/base.html",
+				"/Users/dr/workspace/aesthetic/content/octave-osx.rst",
+				"/Users/dr/workspace/aesthetic/content/bithacks.rst",
+				"/Users/dr/workspace/aesthetic/content/sleep.rst",
+				"/Users/dr/workspace/aesthetic/templates/post_list.html",
+				"/Users/dr/workspace/aesthetic/static/css/style.css",
+				"/Users/dr/workspace/aesthetic/settings/base.py",
+				"/Users/dr/workspace/aesthetic/fabfile.py",
+				"/Users/dr/workspace/aesthetic/blog/models.py",
+				"/Users/dr/workspace/aesthetic/content/sublime-rvm.rst",
+				"/Users/dr/workspace/Algo2/week5/tsp.c",
+				"/Users/dr/workspace/Algo2/week5/tsp.py",
+				"/Users/dr/workspace/pollster/tests.rb",
+				"/Users/dr/workspace/pollster/polls/inclusive_education.yaml",
+				"/Users/dr/workspace/pollster/db.rb",
+				"/Users/dr/.rvm/gems/ruby-1.9.2-p290@pollster/gems/barista-1.3.0/lib/barista.rb",
+				"/Users/dr/.rvm/gems/ruby-1.9.2-p290@pollster/gems/barista-1.3.0/lib/barista/helpers.rb",
+				"/Users/dr/workspace/pollster/public/js/application.coffee",
+				"/Users/dr/workspace/pollster/views/_q_method.haml",
+				"/Users/dr/workspace/pollster/polltypes.rb",
+				"/Users/dr/workspace/pollster/views/poll.haml",
+				"/Users/dr/workspace/pollster/polls/test.yaml",
+				"/Users/dr/workspace/pollster/helpers.rb",
+				"/Users/dr/workspace/pollster/poll.rb",
+				"/Users/dr/workspace/pollster/views/_radio.haml",
+				"/Users/dr/workspace/pollster/views/thank_you.haml",
+				"/Users/dr/workspace/pollster/views/layout.haml",
+				"/Users/dr/workspace/pollster/config.ru",
+				"/Users/dr/workspace/pollster/views/_text_input.haml",
+				"/Users/dr/workspace/pollster/views/_multiple_with_input.haml",
+				"/Users/dr/workspace/pollster/views/_multiple.haml",
+				"/Users/dr/trunk/CoffeeScript-Sublime-Plugin/README.md",
+				"/Users/dr/trunk/CoffeeScript-Sublime-Plugin/Snippets/Console Log Object.tmSnippet",
+				"/Users/dr/Library/Application Support/Sublime Text 2/Packages/CoffeeScript/Snippets/Class.tmSnippet",
+				"/Users/dr/Library/Application Support/Sublime Text 2/Packages/CoffeeScript/Snippets/log.tmSnippet",
+				"/Users/dr/Library/Application Support/Sublime Text 2/Packages/User/CoffeeScript.sublime-settings",
+				"/Users/dr/workspace/pollster/views/application.coffee",
+				"/Users/dr/.rvm/gems/ruby-1.9.2-p290@pollster/gems/barista-1.3.0/lib/barista/compiler.rb",
+				"/Users/dr/workspace/pollster/Procfile",
+				"/Users/dr/workspace/pollster/views/404.haml",
+				"/Users/dr/workspace/pollster/views/500.haml",
+				"/Users/dr/workspace/pollster/pollster.rb",
+				"/Users/dr/workspace/pollster/views/_input.haml",
+				"/Users/dr/workspace/pollster/views/_checkbox.haml",
+				"/Users/dr/.rvm/gems/ruby-1.9.2-p290@pollster/gems/haml-3.1.7/lib/haml/helpers/action_view_mods.rb",
+				"/Users/dr/workspace/pollster/Gemfile",
+				"/Users/dr/.rvm/gems/ruby-1.9.2-p290@pollster/gems/haml-3.1.7/lib/haml/engine.rb",
+				"/Users/dr/workspace/pollster/config.rb"
+			],
+			"find":
+			{
+				"height": 35.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+					"",
+					"1"
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"benchmark",
+					"include",
+					"send_",
+					"Riemann",
+					"order",
+					"bench",
+					"benchmarkable",
+					"finish",
+					"timing",
+					"rieman",
+					"admin_user",
+					"admin-user",
+					"admin",
+					"nokogiri",
+					"paper",
+					"inc",
+					"Log",
+					"logger",
+					"stub",
+					"matcher",
+					"event_hash",
+					"Monitoring",
+					"_send",
+					"stub",
+					"subject",
+					"connection",
+					"TODO",
+					"do",
+					"new_relic",
+					"syslog",
+					"services",
+					"middleware",
+					"Logger",
+					"log",
+					"load_form_from_cache",
+					"recommendations",
+					"fare",
+					"load_form_from_cache",
+					"get_by_search",
+					"query_key",
+					"Partner",
+					"Pricer",
+					"valid?",
+					"cache",
+					"save_to_cache",
+					"json",
+					"airbrake",
+					"bullet",
+					"json",
+					"airbrake",
+					"Mux.new",
+					" \n",
+					"rails",
+					"profile",
+					"Mux",
+					"params",
+					"PricerForm",
+					".pricer",
+					"form",
+					"profile",
+					"if",
+					"pricer",
+					"booking",
+					"async_amadeus_driver",
+					"adsf",
+					"recommendations",
+					"api",
+					"sirena",
+					"fare_master",
+					"lite",
+					"pricer",
+					"lite",
+					"amadeus_pricer",
+					"form",
+					"production",
+					"env",
+					"amad",
+					"interline",
+					"import",
+					"air_flight",
+					"initialize",
+					"multi",
+					"recommendation",
+					"air_flight",
+					"context",
+					"air_flight",
+					"Strategy::amadeus",
+					"multi",
+					"pnr_add_multi",
+					"pnr_",
+					"Strategy::Amadeus",
+					"spork",
+					"before",
+					"booking",
+					"Strategy",
+					"tst_resp",
+					"response",
+					"amadeus::Response",
+					"pnr_retrieve",
+					"retrieve",
+					"pnr_retrieve",
+					"response",
+					"amadeus_response",
+					"air_flight_info",
+					"air_info",
+					"air_flight",
+					"air_flight_info_result",
+					"stab",
+					"code_share",
+					"recom",
+					"recomme",
+					"build",
+					"order",
+					"factory",
+					":order",
+					"subject",
+					"build",
+					"order",
+					"validating",
+					"describe",
+					"MOWR2233B",
+					"context",
+					"validating",
+					"ticket",
+					"submit",
+					"UI",
+					"branch",
+					"staging"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"payload",
+					"id",
+					"sirena = sirena_price",
+					"amadeus",
+					"kosaraju",
+					"append",
+					"",
+					"%f",
+					"float",
+					"  puts \"s[0]: #{s[0]}\"\n",
+					"1\n",
+					"  puts \"s[0]: #{s[0]}\"\n",
+					"1"
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"selected": 0,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/Users/dr/workspace/eviterra/lib/stat_counters.rb",
+							"settings":
+							{
+								"buffer_size": 2682,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1033,
+										1033
+									]
+								],
+								"settings":
+								{
+									"annotations":
+									[
+										"TODO",
+										"README",
+										"FIXME"
+									],
+									"csslint_options":
+									{
+										"adjoining-classes": "warning",
+										"box-model": true,
+										"box-sizing": "warning",
+										"compatible-vendor-prefixes": "warning",
+										"display-property-grouping": true,
+										"duplicate-background-images": "warning",
+										"duplicate-properties": true,
+										"empty-rules": true,
+										"errors": true,
+										"fallback-colors": "warning",
+										"floats": "warning",
+										"font-faces": "warning",
+										"font-sizes": "warning",
+										"gradients": "warning",
+										"ids": "warning",
+										"import": "warning",
+										"important": "warning",
+										"known-properties": true,
+										"outline-none": "warning",
+										"overqualified-elements": "warning",
+										"qualified-headings": "warning",
+										"regex-selectors": "warning",
+										"rules-count": "warning",
+										"shorthand": "warning",
+										"star-property-hack": "warning",
+										"text-indent": "warning",
+										"underscore-property-hack": "warning",
+										"unique-headings": "warning",
+										"universal-selector": "warning",
+										"vendor-prefix": true,
+										"zero-units": "warning"
+									},
+									"gjslint_ignore":
+									[
+										110.0
+									],
+									"gjslint_options":
+									[
+									],
+									"javascript_linter": "jshint",
+									"jshint_options":
+									{
+										"browser": true,
+										"evil": true,
+										"regexdash": true,
+										"sub": true,
+										"trailing": true,
+										"wsh": true
+									},
+									"pep8": true,
+									"pep8_ignore":
+									[
+										"E501"
+									],
+									"perl_linter": "perlcritic",
+									"pyflakes_ignore":
+									[
+									],
+									"pyflakes_ignore_import_*": true,
+									"sublimelinter": true,
+									"sublimelinter_delay": 2.0,
+									"sublimelinter_disable":
+									[
+									],
+									"sublimelinter_executable_map":
+									{
+									},
+									"sublimelinter_fill_outlines": false,
+									"sublimelinter_gutter_marks": true,
+									"sublimelinter_gutter_marks_theme": "simple",
+									"sublimelinter_mark_style": "none",
+									"sublimelinter_notes": false,
+									"sublimelinter_objj_check_ascii": false,
+									"sublimelinter_popup_errors_on_save": false,
+									"sublimelinter_syntax_map":
+									{
+										"C++": "c",
+										"Python Django": "python",
+										"Ruby on Rails": "ruby"
+									},
+									"sublimelinter_wrap_find": true,
+									"syntax": "Packages/Ruby/Ruby.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 270.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/Users/dr/workspace/eviterra/config/defaults.yml",
+							"settings":
+							{
+								"buffer_size": 3626,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										3561,
+										3561
+									]
+								],
+								"settings":
+								{
+									"annotations":
+									[
+										"TODO",
+										"README",
+										"FIXME"
+									],
+									"csslint_options":
+									{
+										"adjoining-classes": "warning",
+										"box-model": true,
+										"box-sizing": "warning",
+										"compatible-vendor-prefixes": "warning",
+										"display-property-grouping": true,
+										"duplicate-background-images": "warning",
+										"duplicate-properties": true,
+										"empty-rules": true,
+										"errors": true,
+										"fallback-colors": "warning",
+										"floats": "warning",
+										"font-faces": "warning",
+										"font-sizes": "warning",
+										"gradients": "warning",
+										"ids": "warning",
+										"import": "warning",
+										"important": "warning",
+										"known-properties": true,
+										"outline-none": "warning",
+										"overqualified-elements": "warning",
+										"qualified-headings": "warning",
+										"regex-selectors": "warning",
+										"rules-count": "warning",
+										"shorthand": "warning",
+										"star-property-hack": "warning",
+										"text-indent": "warning",
+										"underscore-property-hack": "warning",
+										"unique-headings": "warning",
+										"universal-selector": "warning",
+										"vendor-prefix": true,
+										"zero-units": "warning"
+									},
+									"gjslint_ignore":
+									[
+										110.0
+									],
+									"gjslint_options":
+									[
+									],
+									"javascript_linter": "jshint",
+									"jshint_options":
+									{
+										"browser": true,
+										"evil": true,
+										"regexdash": true,
+										"sub": true,
+										"trailing": true,
+										"wsh": true
+									},
+									"pep8": true,
+									"pep8_ignore":
+									[
+										"E501"
+									],
+									"perl_linter": "perlcritic",
+									"pyflakes_ignore":
+									[
+									],
+									"pyflakes_ignore_import_*": true,
+									"sublimelinter": true,
+									"sublimelinter_delay": 2.0,
+									"sublimelinter_disable":
+									[
+									],
+									"sublimelinter_executable_map":
+									{
+									},
+									"sublimelinter_fill_outlines": false,
+									"sublimelinter_gutter_marks": true,
+									"sublimelinter_gutter_marks_theme": "simple",
+									"sublimelinter_mark_style": "none",
+									"sublimelinter_notes": false,
+									"sublimelinter_objj_check_ascii": false,
+									"sublimelinter_popup_errors_on_save": false,
+									"sublimelinter_syntax_map":
+									{
+										"C++": "c",
+										"Python Django": "python",
+										"Ruby on Rails": "ruby"
+									},
+									"sublimelinter_wrap_find": true,
+									"syntax": "Packages/YAML/YAML.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 1771.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/Users/dr/workspace/eviterra/lib/monitoring.rb",
+							"settings":
+							{
+								"buffer_size": 316,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										72,
+										72
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Ruby/Ruby.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"file": "/Users/dr/workspace/eviterra/lib/monitoring/benchmarkable.rb",
+							"settings":
+							{
+								"buffer_size": 479,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										324,
+										324
+									]
+								],
+								"settings":
+								{
+									"auto_name": "# encoding: utf-8",
+									"syntax": "Packages/Ruby/Ruby.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 4,
+							"file": "/Users/dr/workspace/eviterra/lib/monitoring/subscribers/request_performance.rb",
+							"settings":
+							{
+								"buffer_size": 1556,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Ruby/Ruby.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 5,
+							"file": "/Users/dr/workspace/eviterra/lib/monitoring/subscribers/benchmarking.rb",
+							"settings":
+							{
+								"buffer_size": 424,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Ruby/Ruby.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 6,
+							"file": "/Users/dr/workspace/eviterra/lib/monitoring/subscribers.rb",
+							"settings":
+							{
+								"buffer_size": 227,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										227,
+										227
+									]
+								],
+								"settings":
+								{
+									"auto_name": "#encoding: utf-8",
+									"syntax": "Packages/Ruby/Ruby.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 7,
+							"file": "/Users/dr/workspace/eviterra/lib/monitoring/riemann_connection.rb",
+							"settings":
+							{
+								"buffer_size": 1146,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Ruby/Ruby.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 8,
+							"file": "/Users/dr/workspace/eviterra/lib/mux.rb",
+							"settings":
+							{
+								"buffer_size": 7190,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										656,
+										665
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Ruby/Ruby.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 681.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 9,
+							"file": "/Users/dr/workspace/eviterra/lib/curl_helper.rb",
+							"settings":
+							{
+								"buffer_size": 695,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										695,
+										695
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Ruby/Ruby.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 0.0
+			},
+			"input":
+			{
+				"height": 33.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 218.0
+			},
+			"position": "0 4 1440 874 0 0 1440 878 ",
+			"replace":
+			{
+				"height": 64.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+					[
+						"riemann",
+						"lib/monitoring/riemann_connection.rb"
+					],
+					[
+						"benchmarking",
+						"lib/monitoring/subscribers/benchmarking.rb"
+					],
+					[
+						"mux",
+						"lib/mux.rb"
+					],
+					[
+						"moni",
+						"lib/monitoring.rb"
+					],
+					[
+						"iatastash",
+						"lib/iata_stash.rb"
+					],
+					[
+						"recommendation",
+						"app/models/recommendation.rb"
+					],
+					[
+						"amadeussession",
+						"lib/amadeus/session.rb"
+					],
+					[
+						"amadeus",
+						"lib/amadeus.rb"
+					],
+					[
+						"pricerform",
+						"app/models/pricer_form.rb"
+					],
+					[
+						"pricer",
+						"app/controllers/pricer_controller.rb"
+					],
+					[
+						"config.ru",
+						"config.ru"
+					],
+					[
+						"application",
+						"config/application.rb"
+					],
+					[
+						"lib/ama",
+						"lib/amadeus.rb"
+					],
+					[
+						"pricing",
+						"doc/Pricing.html"
+					],
+					[
+						"pryrc",
+						".pryrc"
+					],
+					[
+						"city",
+						"app/models/city.rb"
+					],
+					[
+						"location",
+						"app/models/location.rb"
+					],
+					[
+						"pricer_form",
+						"app/models/pricer_form.rb"
+					],
+					[
+						"factori",
+						"spec/factories.rb"
+					],
+					[
+						"fare_master_pricer_travel_board_search",
+						"lib/amadeus/request/fare_master_pricer_travel_board_search.rb"
+					],
+					[
+						"mux.rb",
+						"lib/mux.rb"
+					],
+					[
+						"macros",
+						"lib/amadeus/macros.rb"
+					],
+					[
+						"commis",
+						"config/commissions.rb"
+					],
+					[
+						"lib/amadeus.rb",
+						"lib/amadeus.rb"
+					],
+					[
+						"strategy/amadeus/book",
+						"lib/strategy/amadeus/booking.rb"
+					],
+					[
+						"response/air_flight",
+						"lib/amadeus/response/air_flight_info.rb"
+					],
+					[
+						"air_flight_info.rb",
+						"lib/amadeus/request/air_flight_info.rb"
+					],
+					[
+						"fixture",
+						"lib/amadeus/fixtures.rb"
+					],
+					[
+						"amadeus/macros",
+						"lib/amadeus/macros.rb"
+					],
+					[
+						"models/store",
+						"app/models/stored_flight.rb"
+					],
+					[
+						"recoment",
+						"lib/pricing/recommendation.rb"
+					],
+					[
+						"console_",
+						"config/initializers/console_factories.rb"
+					],
+					[
+						"rvmr",
+						".rvmrc"
+					],
+					[
+						"factory",
+						"spec/support/factory_girl.rb"
+					],
+					[
+						"factore",
+						"spec/factories.rb"
+					],
+					[
+						"keyval",
+						"lib/key_value_init.rb"
+					],
+					[
+						"strag",
+						"lib/strategy.rb"
+					],
+					[
+						"production",
+						"config/environments/production.rb"
+					],
+					[
+						"enlarge",
+						"db/migrate/20101226041600_enlarge_airline_interlines.rb"
+					],
+					[
+						"tsp.txt",
+						"week5/tsp.txt"
+					],
+					[
+						"bellman",
+						"/Users/dr/workspace/Algo2/week4/bellmanford.py"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 500.0,
+				"selected_items":
+				[
+					[
+						"",
+						"/Users/dr/workspace/rubymonk/rubymonk.sublime-project"
+					]
+				],
+				"width": 380.0
+			},
+			"show_minimap": true,
+			"show_open_files": true,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 234.0,
+			"status_bar_visible": true,
+			"window_id": 2,
+			"workspace_name": "/Users/dr/workspace/sublime-projects/eviterra.sublime-project"
+		},
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"openstruct",
+						"openstruct"
+					],
+					[
+						"s",
+						"s	(local, instance)"
+					],
+					[
+						"x",
+						"x	(local, instance)"
+					],
+					[
+						"y",
+						"y	(local, instance)"
+					],
+					[
+						"t",
+						"t"
+					],
+					[
+						"de",
+						"destroyArray"
+					],
+					[
+						"next",
+						"next_with_same_number_of_bits"
+					],
+					[
+						"fro",
+						"from_subset"
+					],
+					[
+						"Bits",
+						"Bits"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/Users/dr/.rvm/gems/ruby-1.9.3-p327@eviterra/gems/lumberjack_syslog_device-1.0.0/lib/lumberjack_syslog_device.rb",
+					"settings":
+					{
+						"buffer_size": 4424,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/dr/.rvm/gems/ruby-1.9.3-p327@eviterra/gems/activesupport-3.2.12/lib/active_support/core_ext/benchmark.rb",
+					"settings":
+					{
+						"buffer_size": 89,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/dr/.rvm/gems/ruby-1.9.3-p327@eviterra/gems/activesupport-3.2.12/lib/active_support/benchmarkable.rb",
+					"settings":
+					{
+						"buffer_size": 2104,
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "Packages/CoffeeScript/CoffeeScript.sublime-build",
+			"command_palette":
+			{
+				"height": 47.0,
+				"selected_items":
+				[
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"wrap",
+						"Word Wrap: Toggle"
+					],
+					[
+						"syntax ruby",
+						"Set Syntax: Ruby"
+					],
+					[
+						"upgrade",
+						"Package Control: Upgrade Package"
+					],
+					[
+						"upd",
+						"Package Control: Upgrade/Overwrite All Packages"
+					],
+					[
+						"remove pa",
+						"Package Control: Remove Package"
+					],
+					[
+						"remove",
+						"Package Control: Remove Package"
+					],
+					[
+						"install ",
+						"Package Control: Install Package"
+					],
+					[
+						"syntax cucum",
+						"Set Syntax: Cucumber Steps"
+					],
+					[
+						"rst pr",
+						"RST Preview"
+					],
+					[
+						"previ",
+						"RST Preview"
+					],
+					[
+						"syntax rst",
+						"Set Syntax: reStructuredText"
+					],
+					[
+						"rst",
+						"RST Preview"
+					],
+					[
+						"syntax coff",
+						"Set Syntax: CoffeeScript"
+					],
+					[
+						"package",
+						"Package Control: List Packages"
+					],
+					[
+						"rope",
+						"Rope Refactoring: Rename"
+					],
+					[
+						"renam",
+						"Rope Refactoring: Rename"
+					],
+					[
+						"synta ru",
+						"Set Syntax: Ruby"
+					],
+					[
+						"git diff",
+						"Git: Diff All"
+					],
+					[
+						"instal",
+						"Package Control: Install Package"
+					],
+					[
+						"rspec",
+						"Set Syntax: RSpec"
+					],
+					[
+						"rst pre",
+						"RST Preview"
+					],
+					[
+						"rst ",
+						"RST Preview"
+					],
+					[
+						"rstpre",
+						"RST Preview"
+					],
+					[
+						"rstpr",
+						"RST Preview"
+					],
+					[
+						"rubytest",
+						"RubyTest: Switch between code and test"
+					],
+					[
+						"",
+						"Bookmarks: Toggle"
+					],
+					[
+						"test",
+						"RubyTest: Show Test Panel"
+					],
+					[
+						"ruby",
+						"RubyTest: Verify Syntax"
+					],
+					[
+						"package remove",
+						"Package Control: Remove Package"
+					],
+					[
+						"pep",
+						"User: Python PEP8 Autoformat"
+					],
+					[
+						"python",
+						"User: Python PEP8 Autoformat"
+					],
+					[
+						"git diff ",
+						"Git: Diff All"
+					],
+					[
+						"git log",
+						"Git: Log All"
+					],
+					[
+						"git",
+						"Git: Commit history"
+					],
+					[
+						"git ",
+						"Git: Commit history"
+					],
+					[
+						"packag insta",
+						"Package Control: Install Package"
+					],
+					[
+						"color",
+						"Package Control: Add Repository"
+					],
+					[
+						"comment",
+						"Toggle Comment"
+					]
+				],
+				"width": 602.0
+			},
+			"console":
+			{
+				"height": 139.0
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/Users/dr/workspace/eviterra/config/environments/production.rb",
+				"/Users/dr/workspace/eviterra/lib/middleware.rb",
+				"/Users/dr/workspace/eviterra/lib/iata_stash.rb",
+				"/Users/dr/workspace/eviterra/config/application.rb",
+				"/Users/dr/workspace/eviterra/app/middleware/pid_middleware.rb",
+				"/Users/dr/workspace/eviterra/lib/action_dispatch_request.rb",
+				"/Users/dr/workspace/eviterra/config/environment.rb",
+				"/Users/dr/workspace/eviterra/app/controllers/pricer_controller.rb",
+				"/Users/dr/workspace/eviterra/lib/mux.rb",
+				"/Users/dr/workspace/eviterra/app/models/pricer_form.rb",
+				"/Users/dr/workspace/eviterra/app/models/destination.rb",
+				"/Users/dr/workspace/eviterra/lib/amadeus.rb",
+				"/Users/dr/workspace/eviterra/lib/amadeus/session.rb",
+				"/Users/dr/workspace/eviterra/lib/amadeus/response/fare_master_pricer_travel_board_search.rb",
+				"/Users/dr/workspace/eviterra/app/models/recommendation.rb",
+				"/Users/dr/workspace/eviterra/spec/api/search_spec.rb",
+				"/Users/dr/workspace/eviterra/profiling/pricer_prof.rb",
+				"/Users/dr/workspace/eviterra/config/initializers/airbrake.rb",
+				"/Users/dr/workspace/eviterra/config.ru",
+				"/Users/dr/workspace/eviterra/config/initializers/profiling.rb",
+				"/Users/dr/workspace/eviterra/Gemfile.lock",
+				"/Users/dr/workspace/eviterra/Gemfile",
+				"/Users/dr/workspace/eviterra/config/environments/profiling.rb",
+				"/Users/dr/workspace/eviterra/config/database.yml",
+				"/Users/dr/workspace/eviterra/config/mongoid.yml",
+				"/Users/dr/workspace/eviterra/config/application_local.rb",
+				"/Users/dr/workspace/eviterra/config/initializers/test_inititalizer.rb.example",
+				"/Users/dr/workspace/eviterra/lib/strategy/amadeus.rb",
+				"/Users/dr/workspace/eviterra/app/models/location.rb",
+				"/Users/dr/workspace/eviterra/config/environments/development.rb",
+				"/Users/dr/workspace/eviterra/.gitignore",
+				"/Users/dr/workspace/eviterra/app/controllers/profile/web.rb",
+				"/Users/dr/workspace/eviterra/doc/Pricing.html",
+				"/Users/dr/workspace/eviterra/Guardfile",
+				"/Users/dr/workspace/eviterra/.pryrc",
+				"/Users/dr/workspace/eviterra/app/models/city.rb",
+				"/Users/dr/workspace/eviterra/spec/factories.rb",
+				"/Users/dr/workspace/eviterra/lib/conf.rb",
+				"/Users/dr/workspace/eviterra/config/defaults.yml",
+				"/Users/dr/workspace/eviterra/.yardoc/objects/root.dat",
+				"/Users/dr/Library/Application Support/Sublime Text 2/Packages/SublimeCodeIntel/Base File.sublime-settings",
+				"/Users/dr/workspace/eviterra/spec/lib/strategy_amadeus_spec.rb",
+				"/Users/dr/workspace/eviterra/.yardoc/proxy_types",
+				"/Users/dr/workspace/eviterra/lib/strategy/amadeus/booking.rb",
+				"/Users/dr/workspace/eviterra/lib/amadeus/request/fare_master_pricer_travel_board_search.rb",
+				"/Users/dr/workspace/eviterra/config/schedule.rb",
+				"/Users/dr/workspace/eviterra/lib/amadeus/macros.rb",
+				"/Users/dr/workspace/eviterra/lib/commission.rb",
+				"/Users/dr/workspace/eviterra/config/commissions.rb",
+				"/Users/dr/workspace/eviterra/lib/amadeus/fixtures.rb",
+				"/Users/dr/workspace/eviterra/lib/amadeus/service.rb",
+				"/Users/dr/workspace/eviterra/.failures",
+				"/Users/dr/workspace/eviterra/.rspec",
+				"/Users/dr/workspace/eviterra/lib/amadeus/response/air_flight_info.rb",
+				"/Users/dr/workspace/eviterra/lib/amadeus/request/air_flight_info.rb",
+				"/Users/dr/workspace/eviterra/lib/strategy.rb",
+				"/Users/dr/workspace/eviterra/lib/strategy/base.rb",
+				"/Users/dr/workspace/eviterra/app/models/stored_flight.rb",
+				"/Users/dr/workspace/eviterra/.rvmrc",
+				"/Users/dr/workspace/eviterra/lib/key_value_init.rb",
+				"/Users/dr/workspace/eviterra/lib/pricing/recommendation.rb",
+				"/Users/dr/workspace/eviterra/config/initializers/console_factories.rb",
+				"/Users/dr/workspace/eviterra/.pryrc.rb",
+				"/Users/dr/workspace/eviterra/spec/support/factory_girl.rb",
+				"/Users/dr/workspace/eviterra/config/deploy.rb",
+				"/Users/dr/workspace/eviterra/features/complete.feature",
+				"/Users/dr/workspace/eviterra/db/migrate/20101226041600_enlarge_airline_interlines.rb",
+				"/Users/dr/workspace/eviterra/app/views/shared/_header.html.erb",
+				"/Users/dr/workspace/sublime-projects/eviterra",
+				"/Users/dr/workspace/aesthetic/templates/post_detail.html",
+				"/Users/dr/cv_english.txt",
+				"/Users/dr/workspace/aesthetic/templates/base.html",
+				"/Users/dr/workspace/aesthetic/content/octave-osx.rst",
+				"/Users/dr/workspace/aesthetic/content/bithacks.rst",
+				"/Users/dr/workspace/aesthetic/content/sleep.rst",
+				"/Users/dr/workspace/aesthetic/templates/post_list.html",
+				"/Users/dr/workspace/aesthetic/static/css/style.css",
+				"/Users/dr/workspace/aesthetic/settings/base.py",
+				"/Users/dr/workspace/aesthetic/fabfile.py",
+				"/Users/dr/workspace/aesthetic/blog/models.py",
+				"/Users/dr/workspace/aesthetic/content/sublime-rvm.rst",
+				"/Users/dr/workspace/Algo2/week5/tsp.c",
+				"/Users/dr/workspace/Algo2/week5/tsp.py",
+				"/Users/dr/workspace/pollster/tests.rb",
+				"/Users/dr/workspace/pollster/polls/inclusive_education.yaml",
+				"/Users/dr/workspace/pollster/db.rb",
+				"/Users/dr/.rvm/gems/ruby-1.9.2-p290@pollster/gems/barista-1.3.0/lib/barista.rb",
+				"/Users/dr/.rvm/gems/ruby-1.9.2-p290@pollster/gems/barista-1.3.0/lib/barista/helpers.rb",
+				"/Users/dr/workspace/pollster/public/js/application.coffee",
+				"/Users/dr/workspace/pollster/views/_q_method.haml",
+				"/Users/dr/workspace/pollster/polltypes.rb",
+				"/Users/dr/workspace/pollster/views/poll.haml",
+				"/Users/dr/workspace/pollster/polls/test.yaml",
+				"/Users/dr/workspace/pollster/helpers.rb",
+				"/Users/dr/workspace/pollster/poll.rb",
+				"/Users/dr/workspace/pollster/views/_radio.haml",
+				"/Users/dr/workspace/pollster/views/thank_you.haml",
+				"/Users/dr/workspace/pollster/views/layout.haml",
+				"/Users/dr/workspace/pollster/config.ru",
+				"/Users/dr/workspace/pollster/views/_text_input.haml",
+				"/Users/dr/workspace/pollster/views/_multiple_with_input.haml",
+				"/Users/dr/workspace/pollster/views/_multiple.haml",
+				"/Users/dr/trunk/CoffeeScript-Sublime-Plugin/README.md",
+				"/Users/dr/trunk/CoffeeScript-Sublime-Plugin/Snippets/Console Log Object.tmSnippet",
+				"/Users/dr/Library/Application Support/Sublime Text 2/Packages/CoffeeScript/Snippets/Class.tmSnippet",
+				"/Users/dr/Library/Application Support/Sublime Text 2/Packages/CoffeeScript/Snippets/log.tmSnippet",
+				"/Users/dr/Library/Application Support/Sublime Text 2/Packages/User/CoffeeScript.sublime-settings",
+				"/Users/dr/workspace/pollster/views/application.coffee",
+				"/Users/dr/.rvm/gems/ruby-1.9.2-p290@pollster/gems/barista-1.3.0/lib/barista/compiler.rb",
+				"/Users/dr/workspace/pollster/Procfile",
+				"/Users/dr/workspace/pollster/views/404.haml",
+				"/Users/dr/workspace/pollster/views/500.haml",
+				"/Users/dr/workspace/pollster/pollster.rb",
+				"/Users/dr/workspace/pollster/views/_input.haml",
+				"/Users/dr/workspace/pollster/views/_checkbox.haml",
+				"/Users/dr/.rvm/gems/ruby-1.9.2-p290@pollster/gems/haml-3.1.7/lib/haml/helpers/action_view_mods.rb",
+				"/Users/dr/workspace/pollster/Gemfile",
+				"/Users/dr/.rvm/gems/ruby-1.9.2-p290@pollster/gems/haml-3.1.7/lib/haml/engine.rb",
+				"/Users/dr/workspace/pollster/config.rb",
+				"/Users/dr/.rvm/gems/ruby-1.9.2-p290@pollster/gems/haml-3.1.7/lib/haml/compiler.rb",
+				"/Users/dr/Library/Application Support/Sublime Text 2/Packages/User/Ruby Haml.sublime-settings",
+				"/Users/dr/.rvm/gems/ruby-1.9.2-p290@pollster/gems/haml-3.1.7/lib/haml/helpers/action_view_extensions.rb",
+				"/Users/dr/workspace/pollster/polls/corrupted.yaml",
+				"/Users/dr/.rvm/gems/ruby-1.9.2-p290@pollster/gems/haml-3.1.7/Rakefile",
+				"/Users/dr/workspace/pollster/run.rb",
+				"/Users/dr/workspace/pollster/views/tests.rb",
+				"/Users/dr/workspace/pollster/views/about.haml",
+				"/Users/dr/workspace/pollster/public/css/style.css"
+			],
+			"find":
+			{
+				"height": 35.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+					"",
+					"1"
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"udp",
+					"subscribe",
+					"progname",
+					"syslog",
+					"services",
+					"middleware",
+					"Logger",
+					"log",
+					"load_form_from_cache",
+					"recommendations",
+					"fare",
+					"load_form_from_cache",
+					"get_by_search",
+					"query_key",
+					"Partner",
+					"Pricer",
+					"valid?",
+					"cache",
+					"save_to_cache",
+					"json",
+					"airbrake",
+					"bullet",
+					"json",
+					"airbrake",
+					"Mux.new",
+					" \n",
+					"rails",
+					"profile",
+					"Mux",
+					"params",
+					"PricerForm",
+					".pricer",
+					"form",
+					"profile",
+					"if",
+					"pricer",
+					"booking",
+					"async_amadeus_driver",
+					"adsf",
+					"recommendations",
+					"api",
+					"sirena",
+					"fare_master",
+					"lite",
+					"pricer",
+					"lite",
+					"amadeus_pricer",
+					"form",
+					"production",
+					"env",
+					"amad",
+					"interline",
+					"import",
+					"air_flight",
+					"initialize",
+					"multi",
+					"recommendation",
+					"air_flight",
+					"context",
+					"air_flight",
+					"Strategy::amadeus",
+					"multi",
+					"pnr_add_multi",
+					"pnr_",
+					"Strategy::Amadeus",
+					"spork",
+					"before",
+					"booking",
+					"Strategy",
+					"tst_resp",
+					"response",
+					"amadeus::Response",
+					"pnr_retrieve",
+					"retrieve",
+					"pnr_retrieve",
+					"response",
+					"amadeus_response",
+					"air_flight_info",
+					"air_info",
+					"air_flight",
+					"air_flight_info_result",
+					"stab",
+					"code_share",
+					"recom",
+					"recomme",
+					"build",
+					"order",
+					"factory",
+					":order",
+					"subject",
+					"build",
+					"order",
+					"validating",
+					"describe",
+					"MOWR2233B",
+					"context",
+					"validating",
+					"ticket",
+					"submit",
+					"UI",
+					"branch",
+					"staging",
+					"stages",
+					"staging",
+					"ext",
+					"rb-side",
+					"rspec",
+					"eviterra",
+					"sinatra",
+					"22px",
+					"20px",
+					"internal",
+					"@@connection",
+					"unless",
+					"collect",
+					"required",
+					"log",
+					"map",
+					":coffee",
+					"log",
+					"span",
+					"missing",
+					"map",
+					"each",
+					"color",
+					"blue",
+					"fifth",
+					"toCamel"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"sirena = sirena_price",
+					"amadeus",
+					"kosaraju",
+					"append",
+					"",
+					"%f",
+					"float",
+					"  puts \"s[0]: #{s[0]}\"\n",
+					"1\n",
+					"  puts \"s[0]: #{s[0]}\"\n",
+					"1"
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"folders":
+			[
+				{
+					"path": "/Users/dr/.rvm/gems/ruby-1.9.3-p327@eviterra/gems"
+				}
+			],
+			"groups":
+			[
+				{
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/Users/dr/.rvm/gems/ruby-1.9.3-p327@eviterra/gems/lumberjack_syslog_device-1.0.0/lib/lumberjack_syslog_device.rb",
+							"settings":
+							{
+								"buffer_size": 4424,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										3860,
+										3860
+									]
+								],
+								"settings":
+								{
+									"annotations":
+									[
+										"TODO",
+										"README",
+										"FIXME"
+									],
+									"csslint_options":
+									{
+										"adjoining-classes": "warning",
+										"box-model": true,
+										"box-sizing": "warning",
+										"compatible-vendor-prefixes": "warning",
+										"display-property-grouping": true,
+										"duplicate-background-images": "warning",
+										"duplicate-properties": true,
+										"empty-rules": true,
+										"errors": true,
+										"fallback-colors": "warning",
+										"floats": "warning",
+										"font-faces": "warning",
+										"font-sizes": "warning",
+										"gradients": "warning",
+										"ids": "warning",
+										"import": "warning",
+										"important": "warning",
+										"known-properties": true,
+										"outline-none": "warning",
+										"overqualified-elements": "warning",
+										"qualified-headings": "warning",
+										"regex-selectors": "warning",
+										"rules-count": "warning",
+										"shorthand": "warning",
+										"star-property-hack": "warning",
+										"text-indent": "warning",
+										"underscore-property-hack": "warning",
+										"unique-headings": "warning",
+										"universal-selector": "warning",
+										"vendor-prefix": true,
+										"zero-units": "warning"
+									},
+									"gjslint_ignore":
+									[
+										110.0
+									],
+									"gjslint_options":
+									[
+									],
+									"javascript_linter": "jshint",
+									"jshint_options":
+									{
+										"browser": true,
+										"evil": true,
+										"regexdash": true,
+										"sub": true,
+										"trailing": true,
+										"wsh": true
+									},
+									"pep8": true,
+									"pep8_ignore":
+									[
+										"E501"
+									],
+									"perl_linter": "perlcritic",
+									"pyflakes_ignore":
+									[
+									],
+									"pyflakes_ignore_import_*": true,
+									"sublimelinter": true,
+									"sublimelinter_delay": 2.0,
+									"sublimelinter_disable":
+									[
+									],
+									"sublimelinter_executable_map":
+									{
+									},
+									"sublimelinter_fill_outlines": false,
+									"sublimelinter_gutter_marks": true,
+									"sublimelinter_gutter_marks_theme": "simple",
+									"sublimelinter_mark_style": "none",
+									"sublimelinter_notes": false,
+									"sublimelinter_objj_check_ascii": false,
+									"sublimelinter_popup_errors_on_save": false,
+									"sublimelinter_syntax_map":
+									{
+										"C++": "c",
+										"Python Django": "python",
+										"Ruby on Rails": "ruby"
+									},
+									"sublimelinter_wrap_find": true,
+									"syntax": "Packages/Ruby/Ruby.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/Users/dr/.rvm/gems/ruby-1.9.3-p327@eviterra/gems/activesupport-3.2.12/lib/active_support/core_ext/benchmark.rb",
+							"settings":
+							{
+								"buffer_size": 89,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										89,
+										89
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Ruby/Ruby.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/Users/dr/.rvm/gems/ruby-1.9.3-p327@eviterra/gems/activesupport-3.2.12/lib/active_support/benchmarkable.rb",
+							"settings":
+							{
+								"buffer_size": 2104,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1531,
+										1531
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Ruby/Ruby.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 0.0
+			},
+			"input":
+			{
+				"height": 33.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 218.0
+			},
+			"position": "0 4 1440 874 0 0 1440 878 ",
+			"replace":
+			{
+				"height": 64.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+					[
+						"iatastash",
+						"lib/iata_stash.rb"
+					],
+					[
+						"recommendation",
+						"app/models/recommendation.rb"
+					],
+					[
+						"amadeussession",
+						"lib/amadeus/session.rb"
+					],
+					[
+						"amadeus",
+						"lib/amadeus.rb"
+					],
+					[
+						"mux",
+						"lib/mux.rb"
+					],
+					[
+						"pricerform",
+						"app/models/pricer_form.rb"
+					],
+					[
+						"pricer",
+						"app/controllers/pricer_controller.rb"
+					],
+					[
+						"config.ru",
+						"config.ru"
+					],
+					[
+						"application",
+						"config/application.rb"
+					],
+					[
+						"lib/ama",
+						"lib/amadeus.rb"
+					],
+					[
+						"pricing",
+						"doc/Pricing.html"
+					],
+					[
+						"pryrc",
+						".pryrc"
+					],
+					[
+						"city",
+						"app/models/city.rb"
+					],
+					[
+						"location",
+						"app/models/location.rb"
+					],
+					[
+						"pricer_form",
+						"app/models/pricer_form.rb"
+					],
+					[
+						"factori",
+						"spec/factories.rb"
+					],
+					[
+						"fare_master_pricer_travel_board_search",
+						"lib/amadeus/request/fare_master_pricer_travel_board_search.rb"
+					],
+					[
+						"mux.rb",
+						"lib/mux.rb"
+					],
+					[
+						"macros",
+						"lib/amadeus/macros.rb"
+					],
+					[
+						"commis",
+						"config/commissions.rb"
+					],
+					[
+						"lib/amadeus.rb",
+						"lib/amadeus.rb"
+					],
+					[
+						"strategy/amadeus/book",
+						"lib/strategy/amadeus/booking.rb"
+					],
+					[
+						"response/air_flight",
+						"lib/amadeus/response/air_flight_info.rb"
+					],
+					[
+						"air_flight_info.rb",
+						"lib/amadeus/request/air_flight_info.rb"
+					],
+					[
+						"fixture",
+						"lib/amadeus/fixtures.rb"
+					],
+					[
+						"amadeus/macros",
+						"lib/amadeus/macros.rb"
+					],
+					[
+						"models/store",
+						"app/models/stored_flight.rb"
+					],
+					[
+						"recoment",
+						"lib/pricing/recommendation.rb"
+					],
+					[
+						"console_",
+						"config/initializers/console_factories.rb"
+					],
+					[
+						"rvmr",
+						".rvmrc"
+					],
+					[
+						"factory",
+						"spec/support/factory_girl.rb"
+					],
+					[
+						"factore",
+						"spec/factories.rb"
+					],
+					[
+						"keyval",
+						"lib/key_value_init.rb"
+					],
+					[
+						"strag",
+						"lib/strategy.rb"
+					],
+					[
+						"production",
+						"config/environments/production.rb"
+					],
+					[
+						"enlarge",
+						"db/migrate/20101226041600_enlarge_airline_interlines.rb"
+					],
+					[
+						"tsp.txt",
+						"week5/tsp.txt"
+					],
+					[
+						"bellman",
+						"/Users/dr/workspace/Algo2/week4/bellmanford.py"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 500.0,
+				"selected_items":
+				[
+					[
+						"",
+						"/Users/dr/workspace/rubymonk/rubymonk.sublime-project"
+					]
+				],
+				"width": 380.0
+			},
+			"show_minimap": true,
+			"show_open_files": true,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 234.0,
+			"status_bar_visible": true,
+			"window_id": 13,
+			"workspace_name": ""
+		},
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"be",
+						"be_same_array_as"
+					],
+					[
+						"do",
+						"do"
+					],
+					[
+						"openstruct",
+						"openstruct"
+					],
+					[
+						"s",
+						"s	(local, instance)"
+					],
+					[
+						"x",
+						"x	(local, instance)"
+					],
+					[
+						"y",
+						"y	(local, instance)"
+					],
+					[
+						"t",
+						"t"
+					],
+					[
+						"de",
+						"destroyArray"
+					],
+					[
+						"next",
+						"next_with_same_number_of_bits"
+					],
+					[
+						"fro",
+						"from_subset"
+					],
+					[
+						"Bits",
+						"Bits"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/Users/dr/workspace/chef-repo/cookbooks/erchef/attributes/pgsql.rb",
+					"settings":
+					{
+						"buffer_size": 1132,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/dr/workspace/chef-repo/cookbooks/graphite/templates/default/graphite/conf/local_settings.py.erb",
+					"settings":
+					{
+						"buffer_size": 8284,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/dr/workspace/chef-repo/cookbooks/rsyslog/templates/default/rsyslog.conf.erb",
+					"settings":
+					{
+						"buffer_size": 2681,
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "Packages/CoffeeScript/CoffeeScript.sublime-build",
+			"command_palette":
+			{
+				"height": 47.0,
+				"selected_items":
+				[
+					[
+						"remove",
+						"Package Control: Remove Package"
+					],
+					[
+						"rspec",
+						"Set Syntax: RSpec"
+					],
+					[
+						"ruby",
+						"Set Syntax: Ruby"
+					],
+					[
+						"ruby ",
+						"RubyTest: Verify Syntax"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"wrap",
+						"Word Wrap: Toggle"
+					],
+					[
+						"syntax ruby",
+						"Set Syntax: Ruby"
+					],
+					[
+						"upgrade",
+						"Package Control: Upgrade Package"
+					],
+					[
+						"upd",
+						"Package Control: Upgrade/Overwrite All Packages"
+					],
+					[
+						"remove pa",
+						"Package Control: Remove Package"
+					],
+					[
+						"install ",
+						"Package Control: Install Package"
+					],
+					[
+						"syntax cucum",
+						"Set Syntax: Cucumber Steps"
+					],
+					[
+						"rst pr",
+						"RST Preview"
+					],
+					[
+						"previ",
+						"RST Preview"
+					],
+					[
+						"syntax rst",
+						"Set Syntax: reStructuredText"
+					],
+					[
+						"rst",
+						"RST Preview"
+					],
+					[
+						"syntax coff",
+						"Set Syntax: CoffeeScript"
+					],
+					[
+						"package",
+						"Package Control: List Packages"
+					],
+					[
+						"rope",
+						"Rope Refactoring: Rename"
+					],
+					[
+						"renam",
+						"Rope Refactoring: Rename"
+					],
+					[
+						"synta ru",
+						"Set Syntax: Ruby"
+					],
+					[
+						"git diff",
+						"Git: Diff All"
+					],
+					[
+						"instal",
+						"Package Control: Install Package"
+					],
+					[
+						"rst pre",
+						"RST Preview"
+					],
+					[
+						"rst ",
+						"RST Preview"
+					],
+					[
+						"rstpre",
+						"RST Preview"
+					],
+					[
+						"rstpr",
+						"RST Preview"
+					],
+					[
+						"rubytest",
+						"RubyTest: Switch between code and test"
+					],
+					[
+						"",
+						"Bookmarks: Toggle"
+					],
+					[
+						"test",
+						"RubyTest: Show Test Panel"
+					],
+					[
+						"package remove",
+						"Package Control: Remove Package"
+					],
+					[
+						"pep",
+						"User: Python PEP8 Autoformat"
+					],
+					[
+						"python",
+						"User: Python PEP8 Autoformat"
+					],
+					[
+						"git diff ",
+						"Git: Diff All"
+					],
+					[
+						"git log",
+						"Git: Log All"
+					],
+					[
+						"git",
+						"Git: Commit history"
+					],
+					[
+						"git ",
+						"Git: Commit history"
+					],
+					[
+						"packag insta",
+						"Package Control: Install Package"
+					],
+					[
+						"color",
+						"Package Control: Add Repository"
+					],
+					[
+						"comment",
+						"Toggle Comment"
+					]
+				],
+				"width": 575.0
+			},
+			"console":
+			{
+				"height": 139.0
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/Users/dr/workspace/eviterra/spec/lib/monitoring_riemann_spec.rb",
+				"/Users/dr/workspace/eviterra/spec/support/matchers/be_same_array_as.rb",
+				"/Users/dr/workspace/eviterra/spec/lib/strategy_amadeus_spec.rb",
+				"/Users/dr/workspace/eviterra/spec/spec_helper.rb",
+				"/Users/dr/workspace/eviterra/spec/lib/strategy_sirena_spec.rb",
+				"/Users/dr/workspace/eviterra/Gemfile",
+				"/Users/dr/workspace/eviterra/spec/lib/payu_spec.rb",
+				"/Users/dr/workspace/eviterra/config/environments/production.rb",
+				"/Users/dr/workspace/eviterra/lib/middleware.rb",
+				"/Users/dr/workspace/eviterra/lib/iata_stash.rb",
+				"/Users/dr/workspace/eviterra/config/application.rb",
+				"/Users/dr/workspace/eviterra/app/middleware/pid_middleware.rb",
+				"/Users/dr/workspace/eviterra/lib/action_dispatch_request.rb",
+				"/Users/dr/workspace/eviterra/config/environment.rb",
+				"/Users/dr/workspace/eviterra/app/controllers/pricer_controller.rb",
+				"/Users/dr/workspace/eviterra/lib/mux.rb",
+				"/Users/dr/workspace/eviterra/app/models/pricer_form.rb",
+				"/Users/dr/workspace/eviterra/app/models/destination.rb",
+				"/Users/dr/workspace/eviterra/lib/amadeus.rb",
+				"/Users/dr/workspace/eviterra/lib/amadeus/session.rb",
+				"/Users/dr/workspace/eviterra/lib/amadeus/response/fare_master_pricer_travel_board_search.rb",
+				"/Users/dr/workspace/eviterra/app/models/recommendation.rb",
+				"/Users/dr/workspace/eviterra/spec/api/search_spec.rb",
+				"/Users/dr/workspace/eviterra/profiling/pricer_prof.rb",
+				"/Users/dr/workspace/eviterra/config/initializers/airbrake.rb",
+				"/Users/dr/workspace/eviterra/config.ru",
+				"/Users/dr/workspace/eviterra/config/initializers/profiling.rb",
+				"/Users/dr/workspace/eviterra/Gemfile.lock",
+				"/Users/dr/workspace/eviterra/config/environments/profiling.rb",
+				"/Users/dr/workspace/eviterra/config/database.yml",
+				"/Users/dr/workspace/eviterra/config/mongoid.yml",
+				"/Users/dr/workspace/eviterra/config/application_local.rb",
+				"/Users/dr/workspace/eviterra/config/initializers/test_inititalizer.rb.example",
+				"/Users/dr/workspace/eviterra/lib/strategy/amadeus.rb",
+				"/Users/dr/workspace/eviterra/app/models/location.rb",
+				"/Users/dr/workspace/eviterra/config/environments/development.rb",
+				"/Users/dr/workspace/eviterra/.gitignore",
+				"/Users/dr/workspace/eviterra/app/controllers/profile/web.rb",
+				"/Users/dr/workspace/eviterra/doc/Pricing.html",
+				"/Users/dr/workspace/eviterra/Guardfile",
+				"/Users/dr/workspace/eviterra/.pryrc",
+				"/Users/dr/workspace/eviterra/app/models/city.rb",
+				"/Users/dr/workspace/eviterra/spec/factories.rb",
+				"/Users/dr/workspace/eviterra/lib/conf.rb",
+				"/Users/dr/workspace/eviterra/config/defaults.yml",
+				"/Users/dr/workspace/eviterra/.yardoc/objects/root.dat",
+				"/Users/dr/Library/Application Support/Sublime Text 2/Packages/SublimeCodeIntel/Base File.sublime-settings",
+				"/Users/dr/workspace/eviterra/.yardoc/proxy_types",
+				"/Users/dr/workspace/eviterra/lib/strategy/amadeus/booking.rb",
+				"/Users/dr/workspace/eviterra/lib/amadeus/request/fare_master_pricer_travel_board_search.rb",
+				"/Users/dr/workspace/eviterra/config/schedule.rb",
+				"/Users/dr/workspace/eviterra/lib/amadeus/macros.rb",
+				"/Users/dr/workspace/eviterra/lib/commission.rb",
+				"/Users/dr/workspace/eviterra/config/commissions.rb",
+				"/Users/dr/workspace/eviterra/lib/amadeus/fixtures.rb",
+				"/Users/dr/workspace/eviterra/lib/amadeus/service.rb",
+				"/Users/dr/workspace/eviterra/.failures",
+				"/Users/dr/workspace/eviterra/.rspec",
+				"/Users/dr/workspace/eviterra/lib/amadeus/response/air_flight_info.rb",
+				"/Users/dr/workspace/eviterra/lib/amadeus/request/air_flight_info.rb",
+				"/Users/dr/workspace/eviterra/lib/strategy.rb",
+				"/Users/dr/workspace/eviterra/lib/strategy/base.rb",
+				"/Users/dr/workspace/eviterra/app/models/stored_flight.rb",
+				"/Users/dr/workspace/eviterra/.rvmrc",
+				"/Users/dr/workspace/eviterra/lib/key_value_init.rb",
+				"/Users/dr/workspace/eviterra/lib/pricing/recommendation.rb",
+				"/Users/dr/workspace/eviterra/config/initializers/console_factories.rb",
+				"/Users/dr/workspace/eviterra/.pryrc.rb",
+				"/Users/dr/workspace/eviterra/spec/support/factory_girl.rb",
+				"/Users/dr/workspace/eviterra/config/deploy.rb",
+				"/Users/dr/workspace/eviterra/features/complete.feature",
+				"/Users/dr/workspace/eviterra/db/migrate/20101226041600_enlarge_airline_interlines.rb",
+				"/Users/dr/workspace/eviterra/app/views/shared/_header.html.erb",
+				"/Users/dr/workspace/sublime-projects/eviterra",
+				"/Users/dr/workspace/aesthetic/templates/post_detail.html",
+				"/Users/dr/cv_english.txt",
+				"/Users/dr/workspace/aesthetic/templates/base.html",
+				"/Users/dr/workspace/aesthetic/content/octave-osx.rst",
+				"/Users/dr/workspace/aesthetic/content/bithacks.rst",
+				"/Users/dr/workspace/aesthetic/content/sleep.rst",
+				"/Users/dr/workspace/aesthetic/templates/post_list.html",
+				"/Users/dr/workspace/aesthetic/static/css/style.css",
+				"/Users/dr/workspace/aesthetic/settings/base.py",
+				"/Users/dr/workspace/aesthetic/fabfile.py",
+				"/Users/dr/workspace/aesthetic/blog/models.py",
+				"/Users/dr/workspace/aesthetic/content/sublime-rvm.rst",
+				"/Users/dr/workspace/Algo2/week5/tsp.c",
+				"/Users/dr/workspace/Algo2/week5/tsp.py",
+				"/Users/dr/workspace/pollster/tests.rb",
+				"/Users/dr/workspace/pollster/polls/inclusive_education.yaml",
+				"/Users/dr/workspace/pollster/db.rb",
+				"/Users/dr/.rvm/gems/ruby-1.9.2-p290@pollster/gems/barista-1.3.0/lib/barista.rb",
+				"/Users/dr/.rvm/gems/ruby-1.9.2-p290@pollster/gems/barista-1.3.0/lib/barista/helpers.rb",
+				"/Users/dr/workspace/pollster/public/js/application.coffee",
+				"/Users/dr/workspace/pollster/views/_q_method.haml",
+				"/Users/dr/workspace/pollster/polltypes.rb",
+				"/Users/dr/workspace/pollster/views/poll.haml",
+				"/Users/dr/workspace/pollster/polls/test.yaml",
+				"/Users/dr/workspace/pollster/helpers.rb",
+				"/Users/dr/workspace/pollster/poll.rb",
+				"/Users/dr/workspace/pollster/views/_radio.haml",
+				"/Users/dr/workspace/pollster/views/thank_you.haml",
+				"/Users/dr/workspace/pollster/views/layout.haml",
+				"/Users/dr/workspace/pollster/config.ru",
+				"/Users/dr/workspace/pollster/views/_text_input.haml",
+				"/Users/dr/workspace/pollster/views/_multiple_with_input.haml",
+				"/Users/dr/workspace/pollster/views/_multiple.haml",
+				"/Users/dr/trunk/CoffeeScript-Sublime-Plugin/README.md",
+				"/Users/dr/trunk/CoffeeScript-Sublime-Plugin/Snippets/Console Log Object.tmSnippet",
+				"/Users/dr/Library/Application Support/Sublime Text 2/Packages/CoffeeScript/Snippets/Class.tmSnippet",
+				"/Users/dr/Library/Application Support/Sublime Text 2/Packages/CoffeeScript/Snippets/log.tmSnippet",
+				"/Users/dr/Library/Application Support/Sublime Text 2/Packages/User/CoffeeScript.sublime-settings",
+				"/Users/dr/workspace/pollster/views/application.coffee",
+				"/Users/dr/.rvm/gems/ruby-1.9.2-p290@pollster/gems/barista-1.3.0/lib/barista/compiler.rb",
+				"/Users/dr/workspace/pollster/Procfile",
+				"/Users/dr/workspace/pollster/views/404.haml",
+				"/Users/dr/workspace/pollster/views/500.haml",
+				"/Users/dr/workspace/pollster/pollster.rb",
+				"/Users/dr/workspace/pollster/views/_input.haml",
+				"/Users/dr/workspace/pollster/views/_checkbox.haml",
+				"/Users/dr/.rvm/gems/ruby-1.9.2-p290@pollster/gems/haml-3.1.7/lib/haml/helpers/action_view_mods.rb",
+				"/Users/dr/workspace/pollster/Gemfile",
+				"/Users/dr/.rvm/gems/ruby-1.9.2-p290@pollster/gems/haml-3.1.7/lib/haml/engine.rb",
+				"/Users/dr/workspace/pollster/config.rb",
+				"/Users/dr/.rvm/gems/ruby-1.9.2-p290@pollster/gems/haml-3.1.7/lib/haml/compiler.rb",
+				"/Users/dr/Library/Application Support/Sublime Text 2/Packages/User/Ruby Haml.sublime-settings",
+				"/Users/dr/.rvm/gems/ruby-1.9.2-p290@pollster/gems/haml-3.1.7/lib/haml/helpers/action_view_extensions.rb",
+				"/Users/dr/workspace/pollster/polls/corrupted.yaml"
+			],
+			"find":
+			{
+				"height": 35.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+					"",
+					"1"
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"inc",
+					"Log",
+					"logger",
+					"stub",
+					"matcher",
+					"event_hash",
+					"Monitoring",
+					"_send",
+					"stub",
+					"subject",
+					"connection",
+					"TODO",
+					"do",
+					"new_relic",
+					"syslog",
+					"services",
+					"middleware",
+					"Logger",
+					"log",
+					"load_form_from_cache",
+					"recommendations",
+					"fare",
+					"load_form_from_cache",
+					"get_by_search",
+					"query_key",
+					"Partner",
+					"Pricer",
+					"valid?",
+					"cache",
+					"save_to_cache",
+					"json",
+					"airbrake",
+					"bullet",
+					"json",
+					"airbrake",
+					"Mux.new",
+					" \n",
+					"rails",
+					"profile",
+					"Mux",
+					"params",
+					"PricerForm",
+					".pricer",
+					"form",
+					"profile",
+					"if",
+					"pricer",
+					"booking",
+					"async_amadeus_driver",
+					"adsf",
+					"recommendations",
+					"api",
+					"sirena",
+					"fare_master",
+					"lite",
+					"pricer",
+					"lite",
+					"amadeus_pricer",
+					"form",
+					"production",
+					"env",
+					"amad",
+					"interline",
+					"import",
+					"air_flight",
+					"initialize",
+					"multi",
+					"recommendation",
+					"air_flight",
+					"context",
+					"air_flight",
+					"Strategy::amadeus",
+					"multi",
+					"pnr_add_multi",
+					"pnr_",
+					"Strategy::Amadeus",
+					"spork",
+					"before",
+					"booking",
+					"Strategy",
+					"tst_resp",
+					"response",
+					"amadeus::Response",
+					"pnr_retrieve",
+					"retrieve",
+					"pnr_retrieve",
+					"response",
+					"amadeus_response",
+					"air_flight_info",
+					"air_info",
+					"air_flight",
+					"air_flight_info_result",
+					"stab",
+					"code_share",
+					"recom",
+					"recomme",
+					"build",
+					"order",
+					"factory",
+					":order",
+					"subject",
+					"build",
+					"order",
+					"validating",
+					"describe",
+					"MOWR2233B",
+					"context",
+					"validating",
+					"ticket",
+					"submit",
+					"UI",
+					"branch",
+					"staging",
+					"stages",
+					"staging",
+					"ext",
+					"rb-side",
+					"rspec",
+					"eviterra",
+					"sinatra",
+					"22px",
+					"20px",
+					"internal",
+					"@@connection",
+					"unless",
+					"collect",
+					"required",
+					"log"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"sirena = sirena_price",
+					"amadeus",
+					"kosaraju",
+					"append",
+					"",
+					"%f",
+					"float",
+					"  puts \"s[0]: #{s[0]}\"\n",
+					"1\n",
+					"  puts \"s[0]: #{s[0]}\"\n",
+					"1"
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"folders":
+			[
+				{
+					"path": "/Users/dr/workspace/chef-repo"
+				}
+			],
+			"groups":
+			[
+				{
+					"selected": 2,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/Users/dr/workspace/chef-repo/cookbooks/erchef/attributes/pgsql.rb",
+							"settings":
+							{
+								"buffer_size": 1132,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										452,
+										452
+									]
+								],
+								"settings":
+								{
+									"annotations":
+									[
+										"TODO",
+										"README",
+										"FIXME"
+									],
+									"csslint_options":
+									{
+										"adjoining-classes": "warning",
+										"box-model": true,
+										"box-sizing": "warning",
+										"compatible-vendor-prefixes": "warning",
+										"display-property-grouping": true,
+										"duplicate-background-images": "warning",
+										"duplicate-properties": true,
+										"empty-rules": true,
+										"errors": true,
+										"fallback-colors": "warning",
+										"floats": "warning",
+										"font-faces": "warning",
+										"font-sizes": "warning",
+										"gradients": "warning",
+										"ids": "warning",
+										"import": "warning",
+										"important": "warning",
+										"known-properties": true,
+										"outline-none": "warning",
+										"overqualified-elements": "warning",
+										"qualified-headings": "warning",
+										"regex-selectors": "warning",
+										"rules-count": "warning",
+										"shorthand": "warning",
+										"star-property-hack": "warning",
+										"text-indent": "warning",
+										"underscore-property-hack": "warning",
+										"unique-headings": "warning",
+										"universal-selector": "warning",
+										"vendor-prefix": true,
+										"zero-units": "warning"
+									},
+									"gjslint_ignore":
+									[
+										110.0
+									],
+									"gjslint_options":
+									[
+									],
+									"javascript_linter": "jshint",
+									"jshint_options":
+									{
+										"browser": true,
+										"evil": true,
+										"regexdash": true,
+										"sub": true,
+										"trailing": true,
+										"wsh": true
+									},
+									"pep8": true,
+									"pep8_ignore":
+									[
+										"E501"
+									],
+									"perl_linter": "perlcritic",
+									"pyflakes_ignore":
+									[
+									],
+									"pyflakes_ignore_import_*": true,
+									"sublimelinter": true,
+									"sublimelinter_delay": 2.0,
+									"sublimelinter_disable":
+									[
+									],
+									"sublimelinter_executable_map":
+									{
+									},
+									"sublimelinter_fill_outlines": false,
+									"sublimelinter_gutter_marks": true,
+									"sublimelinter_gutter_marks_theme": "simple",
+									"sublimelinter_mark_style": "none",
+									"sublimelinter_notes": false,
+									"sublimelinter_objj_check_ascii": false,
+									"sublimelinter_popup_errors_on_save": false,
+									"sublimelinter_syntax_map":
+									{
+										"C++": "c",
+										"Python Django": "python",
+										"Ruby on Rails": "ruby"
+									},
+									"sublimelinter_wrap_find": true,
+									"syntax": "Packages/Ruby/Ruby.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/Users/dr/workspace/chef-repo/cookbooks/graphite/templates/default/graphite/conf/local_settings.py.erb",
+							"settings":
+							{
+								"buffer_size": 8284,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										637,
+										637
+									]
+								],
+								"settings":
+								{
+									"annotations":
+									[
+										"TODO",
+										"README",
+										"FIXME"
+									],
+									"csslint_options":
+									{
+										"adjoining-classes": "warning",
+										"box-model": true,
+										"box-sizing": "warning",
+										"compatible-vendor-prefixes": "warning",
+										"display-property-grouping": true,
+										"duplicate-background-images": "warning",
+										"duplicate-properties": true,
+										"empty-rules": true,
+										"errors": true,
+										"fallback-colors": "warning",
+										"floats": "warning",
+										"font-faces": "warning",
+										"font-sizes": "warning",
+										"gradients": "warning",
+										"ids": "warning",
+										"import": "warning",
+										"important": "warning",
+										"known-properties": true,
+										"outline-none": "warning",
+										"overqualified-elements": "warning",
+										"qualified-headings": "warning",
+										"regex-selectors": "warning",
+										"rules-count": "warning",
+										"shorthand": "warning",
+										"star-property-hack": "warning",
+										"text-indent": "warning",
+										"underscore-property-hack": "warning",
+										"unique-headings": "warning",
+										"universal-selector": "warning",
+										"vendor-prefix": true,
+										"zero-units": "warning"
+									},
+									"gjslint_ignore":
+									[
+										110.0
+									],
+									"gjslint_options":
+									[
+									],
+									"javascript_linter": "jshint",
+									"jshint_options":
+									{
+										"browser": true,
+										"evil": true,
+										"regexdash": true,
+										"sub": true,
+										"trailing": true,
+										"wsh": true
+									},
+									"pep8": true,
+									"pep8_ignore":
+									[
+										"E501"
+									],
+									"perl_linter": "perlcritic",
+									"pyflakes_ignore":
+									[
+									],
+									"pyflakes_ignore_import_*": true,
+									"sublimelinter": true,
+									"sublimelinter_delay": 2.0,
+									"sublimelinter_disable":
+									[
+									],
+									"sublimelinter_executable_map":
+									{
+									},
+									"sublimelinter_fill_outlines": false,
+									"sublimelinter_gutter_marks": true,
+									"sublimelinter_gutter_marks_theme": "simple",
+									"sublimelinter_mark_style": "none",
+									"sublimelinter_notes": false,
+									"sublimelinter_objj_check_ascii": false,
+									"sublimelinter_popup_errors_on_save": false,
+									"sublimelinter_syntax_map":
+									{
+										"C++": "c",
+										"Python Django": "python",
+										"Ruby on Rails": "ruby"
+									},
+									"sublimelinter_wrap_find": true,
+									"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/Users/dr/workspace/chef-repo/cookbooks/rsyslog/templates/default/rsyslog.conf.erb",
+							"settings":
+							{
+								"buffer_size": 2681,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										944,
+										944
+									]
+								],
+								"settings":
+								{
+									"annotations":
+									[
+										"TODO",
+										"README",
+										"FIXME"
+									],
+									"csslint_options":
+									{
+										"adjoining-classes": "warning",
+										"box-model": true,
+										"box-sizing": "warning",
+										"compatible-vendor-prefixes": "warning",
+										"display-property-grouping": true,
+										"duplicate-background-images": "warning",
+										"duplicate-properties": true,
+										"empty-rules": true,
+										"errors": true,
+										"fallback-colors": "warning",
+										"floats": "warning",
+										"font-faces": "warning",
+										"font-sizes": "warning",
+										"gradients": "warning",
+										"ids": "warning",
+										"import": "warning",
+										"important": "warning",
+										"known-properties": true,
+										"outline-none": "warning",
+										"overqualified-elements": "warning",
+										"qualified-headings": "warning",
+										"regex-selectors": "warning",
+										"rules-count": "warning",
+										"shorthand": "warning",
+										"star-property-hack": "warning",
+										"text-indent": "warning",
+										"underscore-property-hack": "warning",
+										"unique-headings": "warning",
+										"universal-selector": "warning",
+										"vendor-prefix": true,
+										"zero-units": "warning"
+									},
+									"gjslint_ignore":
+									[
+										110.0
+									],
+									"gjslint_options":
+									[
+									],
+									"javascript_linter": "jshint",
+									"jshint_options":
+									{
+										"browser": true,
+										"evil": true,
+										"regexdash": true,
+										"sub": true,
+										"trailing": true,
+										"wsh": true
+									},
+									"pep8": true,
+									"pep8_ignore":
+									[
+										"E501"
+									],
+									"perl_linter": "perlcritic",
+									"pyflakes_ignore":
+									[
+									],
+									"pyflakes_ignore_import_*": true,
+									"sublimelinter": true,
+									"sublimelinter_delay": 2.0,
+									"sublimelinter_disable":
+									[
+									],
+									"sublimelinter_executable_map":
+									{
+									},
+									"sublimelinter_fill_outlines": false,
+									"sublimelinter_gutter_marks": true,
+									"sublimelinter_gutter_marks_theme": "simple",
+									"sublimelinter_mark_style": "none",
+									"sublimelinter_notes": false,
+									"sublimelinter_objj_check_ascii": false,
+									"sublimelinter_popup_errors_on_save": false,
+									"sublimelinter_syntax_map":
+									{
+										"C++": "c",
+										"Python Django": "python",
+										"Ruby on Rails": "ruby"
+									},
+									"sublimelinter_wrap_find": true,
+									"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 0.0
+			},
+			"input":
+			{
+				"height": 33.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 218.0
+			},
+			"position": "0 4 1440 874 0 0 1440 878 ",
+			"replace":
+			{
+				"height": 64.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+					[
+						"iatastash",
+						"lib/iata_stash.rb"
+					],
+					[
+						"recommendation",
+						"app/models/recommendation.rb"
+					],
+					[
+						"amadeussession",
+						"lib/amadeus/session.rb"
+					],
+					[
+						"amadeus",
+						"lib/amadeus.rb"
+					],
+					[
+						"mux",
+						"lib/mux.rb"
+					],
+					[
+						"pricerform",
+						"app/models/pricer_form.rb"
+					],
+					[
+						"pricer",
+						"app/controllers/pricer_controller.rb"
+					],
+					[
+						"config.ru",
+						"config.ru"
+					],
+					[
+						"application",
+						"config/application.rb"
+					],
+					[
+						"lib/ama",
+						"lib/amadeus.rb"
+					],
+					[
+						"pricing",
+						"doc/Pricing.html"
+					],
+					[
+						"pryrc",
+						".pryrc"
+					],
+					[
+						"city",
+						"app/models/city.rb"
+					],
+					[
+						"location",
+						"app/models/location.rb"
+					],
+					[
+						"pricer_form",
+						"app/models/pricer_form.rb"
+					],
+					[
+						"factori",
+						"spec/factories.rb"
+					],
+					[
+						"fare_master_pricer_travel_board_search",
+						"lib/amadeus/request/fare_master_pricer_travel_board_search.rb"
+					],
+					[
+						"mux.rb",
+						"lib/mux.rb"
+					],
+					[
+						"macros",
+						"lib/amadeus/macros.rb"
+					],
+					[
+						"commis",
+						"config/commissions.rb"
+					],
+					[
+						"lib/amadeus.rb",
+						"lib/amadeus.rb"
+					],
+					[
+						"strategy/amadeus/book",
+						"lib/strategy/amadeus/booking.rb"
+					],
+					[
+						"response/air_flight",
+						"lib/amadeus/response/air_flight_info.rb"
+					],
+					[
+						"air_flight_info.rb",
+						"lib/amadeus/request/air_flight_info.rb"
+					],
+					[
+						"fixture",
+						"lib/amadeus/fixtures.rb"
+					],
+					[
+						"amadeus/macros",
+						"lib/amadeus/macros.rb"
+					],
+					[
+						"models/store",
+						"app/models/stored_flight.rb"
+					],
+					[
+						"recoment",
+						"lib/pricing/recommendation.rb"
+					],
+					[
+						"console_",
+						"config/initializers/console_factories.rb"
+					],
+					[
+						"rvmr",
+						".rvmrc"
+					],
+					[
+						"factory",
+						"spec/support/factory_girl.rb"
+					],
+					[
+						"factore",
+						"spec/factories.rb"
+					],
+					[
+						"keyval",
+						"lib/key_value_init.rb"
+					],
+					[
+						"strag",
+						"lib/strategy.rb"
+					],
+					[
+						"production",
+						"config/environments/production.rb"
+					],
+					[
+						"enlarge",
+						"db/migrate/20101226041600_enlarge_airline_interlines.rb"
+					],
+					[
+						"tsp.txt",
+						"week5/tsp.txt"
+					],
+					[
+						"bellman",
+						"/Users/dr/workspace/Algo2/week4/bellmanford.py"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 500.0,
+				"selected_items":
+				[
+					[
+						"",
+						"/Users/dr/workspace/rubymonk/rubymonk.sublime-project"
+					]
+				],
+				"width": 380.0
+			},
+			"show_minimap": true,
+			"show_open_files": true,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 234.0,
+			"status_bar_visible": true,
+			"window_id": 16,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+			"/Users/dr/workspace/sublime-projects/eviterra.sublime-project",
+			"/Users/dr/workspace/sublime-projects/pollster.sublime-project",
+			"/Users/dr/workspace/sublime-projects/aesthetic.sublime-project"
+		]
+	}
+}
