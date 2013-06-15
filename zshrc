@@ -12,10 +12,7 @@ zmodload zsh/complist
 
 export PYTHONPATH=$PYTHONPATH:~/trunk/django
 export PYTHONPATH=$PYTHONPATH:/usr/lib/python2.6/site-packages/
-export PATH=$PATH:~/mpi
-export PATH=$PATH:/sbin/
-export PATH=$PATH:~/google_appengine
-export PATH=$PATH:~/ec2-api-tools-1.3-51254/bin
+export PATH=$PATH:/sbin
 export JAVA_HOME=/usr
 export PATH=~/depot_tools:"$PATH"
 export EC2_HOME=~/ec2-api-tools-1.3-51254/
@@ -81,7 +78,6 @@ alias g='git status'
 alias gg='git grep'
 
 
-alias netstat='netstat --numeric-ports'
 alias ls='ls -aG'
 alias less='less -R'
 #}}}
@@ -212,3 +208,9 @@ fi
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH:/usr/local/sbin"
+
+# ctags and other brewed software
+export PATH="/usr/local/bin:$PATH"
+
+# git ^ fix
+setopt NO_NOMATCH
