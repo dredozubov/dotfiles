@@ -823,7 +823,7 @@
 					"file": "/Users/dr/workspace/eviterra/lib/stat_counters.rb",
 					"settings":
 					{
-						"buffer_size": 2682,
+						"buffer_size": 2648,
 						"line_ending": "Unix"
 					}
 				},
@@ -831,7 +831,7 @@
 					"file": "/Users/dr/workspace/eviterra/config/defaults.yml",
 					"settings":
 					{
-						"buffer_size": 3626,
+						"buffer_size": 3807,
 						"line_ending": "Unix"
 					}
 				},
@@ -839,7 +839,7 @@
 					"file": "/Users/dr/workspace/eviterra/lib/monitoring.rb",
 					"settings":
 					{
-						"buffer_size": 316,
+						"buffer_size": 297,
 						"line_ending": "Unix"
 					}
 				},
@@ -856,7 +856,7 @@
 					"file": "/Users/dr/workspace/eviterra/lib/monitoring/subscribers/request_performance.rb",
 					"settings":
 					{
-						"buffer_size": 1556,
+						"buffer_size": 1879,
 						"line_ending": "Unix"
 					}
 				},
@@ -864,7 +864,7 @@
 					"file": "/Users/dr/workspace/eviterra/lib/monitoring/subscribers/benchmarking.rb",
 					"settings":
 					{
-						"buffer_size": 424,
+						"buffer_size": 426,
 						"line_ending": "Unix"
 					}
 				},
@@ -872,7 +872,7 @@
 					"file": "/Users/dr/workspace/eviterra/lib/monitoring/subscribers.rb",
 					"settings":
 					{
-						"buffer_size": 227,
+						"buffer_size": 432,
 						"line_ending": "Unix",
 						"name": "#encoding: utf-8"
 					}
@@ -881,7 +881,7 @@
 					"file": "/Users/dr/workspace/eviterra/lib/monitoring/riemann_connection.rb",
 					"settings":
 					{
-						"buffer_size": 1146,
+						"buffer_size": 2034,
 						"line_ending": "Unix"
 					}
 				},
@@ -897,7 +897,7 @@
 					"file": "/Users/dr/workspace/eviterra/lib/curl_helper.rb",
 					"settings":
 					{
-						"buffer_size": 695,
+						"buffer_size": 0,
 						"line_ending": "Unix"
 					}
 				}
@@ -905,7 +905,7 @@
 			"build_system": "Packages/CoffeeScript/CoffeeScript.sublime-build",
 			"command_palette":
 			{
-				"height": 47.0,
+				"height": 187.0,
 				"selected_items":
 				[
 					[
@@ -1233,6 +1233,8 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"rollback",
+					"eviterra",
 					"benchmark",
 					"include",
 					"send_",
@@ -1358,9 +1360,7 @@
 					"validating",
 					"ticket",
 					"submit",
-					"UI",
-					"branch",
-					"staging"
+					"UI"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -1391,7 +1391,7 @@
 			"groups":
 			[
 				{
-					"selected": 0,
+					"selected": 5,
 					"sheets":
 					[
 						{
@@ -1399,15 +1399,15 @@
 							"file": "/Users/dr/workspace/eviterra/lib/stat_counters.rb",
 							"settings":
 							{
-								"buffer_size": 2682,
+								"buffer_size": 2648,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										1033,
-										1033
+										0,
+										0
 									]
 								],
 								"settings":
@@ -1516,15 +1516,15 @@
 							"file": "/Users/dr/workspace/eviterra/config/defaults.yml",
 							"settings":
 							{
-								"buffer_size": 3626,
+								"buffer_size": 3807,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										3561,
-										3561
+										0,
+										0
 									]
 								],
 								"settings":
@@ -1633,15 +1633,15 @@
 							"file": "/Users/dr/workspace/eviterra/lib/monitoring.rb",
 							"settings":
 							{
-								"buffer_size": 316,
+								"buffer_size": 297,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										72,
-										72
+										0,
+										0
 									]
 								],
 								"settings":
@@ -1690,7 +1690,7 @@
 							"file": "/Users/dr/workspace/eviterra/lib/monitoring/subscribers/request_performance.rb",
 							"settings":
 							{
-								"buffer_size": 1556,
+								"buffer_size": 1879,
 								"regions":
 								{
 								},
@@ -1718,7 +1718,7 @@
 							"file": "/Users/dr/workspace/eviterra/lib/monitoring/subscribers/benchmarking.rb",
 							"settings":
 							{
-								"buffer_size": 424,
+								"buffer_size": 426,
 								"regions":
 								{
 								},
@@ -1746,15 +1746,15 @@
 							"file": "/Users/dr/workspace/eviterra/lib/monitoring/subscribers.rb",
 							"settings":
 							{
-								"buffer_size": 227,
+								"buffer_size": 432,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										227,
-										227
+										0,
+										0
 									]
 								],
 								"settings":
@@ -1773,7 +1773,7 @@
 							"file": "/Users/dr/workspace/eviterra/lib/monitoring/riemann_connection.rb",
 							"settings":
 							{
-								"buffer_size": 1146,
+								"buffer_size": 2034,
 								"regions":
 								{
 								},
@@ -1829,15 +1829,15 @@
 							"file": "/Users/dr/workspace/eviterra/lib/curl_helper.rb",
 							"settings":
 							{
-								"buffer_size": 695,
+								"buffer_size": 0,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										695,
-										695
+										0,
+										0
 									]
 								],
 								"settings":
@@ -2138,7 +2138,7 @@
 					"file": "/Users/dr/.rvm/gems/ruby-1.9.3-p327@eviterra/gems/lumberjack_syslog_device-1.0.0/lib/lumberjack_syslog_device.rb",
 					"settings":
 					{
-						"buffer_size": 4424,
+						"buffer_size": 4425,
 						"line_ending": "Unix"
 					}
 				},
@@ -2648,6 +2648,7 @@
 			"groups":
 			[
 				{
+					"selected": 1,
 					"sheets":
 					[
 						{
@@ -2655,15 +2656,15 @@
 							"file": "/Users/dr/.rvm/gems/ruby-1.9.3-p327@eviterra/gems/lumberjack_syslog_device-1.0.0/lib/lumberjack_syslog_device.rb",
 							"settings":
 							{
-								"buffer_size": 4424,
+								"buffer_size": 4425,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										3860,
-										3860
+										0,
+										0
 									]
 								],
 								"settings":
@@ -3104,6 +3105,22 @@
 					"settings":
 					{
 						"buffer_size": 1132,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Applications/Sublime Text 2.app/Contents/MacOS/Sublime Text 2",
+					"settings":
+					{
+						"buffer_size": 48754342,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/dr/workspace/eviterra/lib/amadeus/response/fare_master_pricer_travel_board_search.rb",
+					"settings":
+					{
+						"buffer_size": 15484,
 						"line_ending": "Unix"
 					}
 				},
@@ -3739,6 +3756,60 @@
 						},
 						{
 							"buffer": 1,
+							"file": "/Applications/Sublime Text 2.app/Contents/MacOS/Sublime Text 2",
+							"settings":
+							{
+								"buffer_size": 48754342,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/Users/dr/workspace/eviterra/lib/amadeus/response/fare_master_pricer_travel_board_search.rb",
+							"settings":
+							{
+								"buffer_size": 15484,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										9612,
+										9612
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Ruby/Ruby.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 3571.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 3,
 							"file": "/Users/dr/workspace/chef-repo/cookbooks/graphite/templates/default/graphite/conf/local_settings.py.erb",
 							"settings":
 							{
@@ -3853,7 +3924,7 @@
 							"type": "text"
 						},
 						{
-							"buffer": 2,
+							"buffer": 4,
 							"file": "/Users/dr/workspace/chef-repo/cookbooks/rsyslog/templates/default/rsyslog.conf.erb",
 							"settings":
 							{
@@ -3864,8 +3935,8 @@
 								"selection":
 								[
 									[
-										944,
-										944
+										278,
+										278
 									]
 								],
 								"settings":

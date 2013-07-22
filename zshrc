@@ -77,6 +77,10 @@ alias gt='git status'
 alias g='git status'
 alias gg='git grep'
 
+# bundler
+alias b="bundle exec"
+alias bi="bundle install"
+
 
 alias ls='ls -aG'
 alias less='less -R'
@@ -214,3 +218,5 @@ export PATH="/usr/local/bin:$PATH"
 
 # git ^ fix
 setopt NO_NOMATCH
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
