@@ -77,6 +77,12 @@ alias gt='git status'
 alias g='git status'
 alias gg='git grep'
 
+# grep
+alias grep='grep --color'
+alias zgrep='zgrep --color'
+alias egrep='egrep --color'
+alias fgrep='fgrep --color'
+
 # bundler
 alias b="bundle exec"
 alias bi="bundle install"
