@@ -3,3 +3,9 @@
 	email = denis.redozubov@gmail.com
 [core]
 	editor = /usr/bin/vim
+[color]
+	ui = true
+[merge]
+	conflictstyle = diff3
+[alias]
+	latest = for-each-ref --count=10 --sort=-committerdate --format='%(committerdate:relative) %(refname:short)'
