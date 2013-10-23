@@ -9,3 +9,5 @@
 	conflictstyle = diff3
 [alias]
 	latest = for-each-ref --count=10 --sort=-committerdate --format='%(committerdate:relative) %(refname:short)'
+[rerere]
+	enabled = 1
