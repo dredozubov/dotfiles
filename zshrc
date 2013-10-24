@@ -10,8 +10,6 @@ zmodload zsh/complist
 #zmodload zsh/files
 #zmodload zsh/pcre
 
-export PYTHONPATH=$PYTHONPATH:~/trunk/django
-export PYTHONPATH=$PYTHONPATH:/usr/lib/python2.6/site-packages/
 export PATH=$PATH:/sbin
 export JAVA_HOME=/usr
 export PATH=~/depot_tools:"$PATH"
@@ -182,29 +180,14 @@ alias vims='vim --remote-silent'
 alias gvims="mvim --remote-silent"
 #}}}
 
-function setdsm() { 
-    # add the current directory and the parent directory to PYTHONPATH
-    # sets DJANGO_SETTINGS_MODULE
-    export PYTHONPATH=$PYTHONPATH:$PWD/..
-    export PYTHONPATH=$PYTHONPATH:$PWD
-    if [ -z "$1" ]; then 
-        x=${PWD/\/[^\/]*\/}               
-        export DJANGO_SETTINGS_MODULE=$x.settings
-    else    
-        export DJANGO_SETTINGS_MODULE=$1 
-    fi
-
-    echo "DJANGO_SETTINGS_MODULE set to $DJANGO_SETTINGS_MODULE"
-}
-
 # rvm
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" # Load RVM function
 export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 
 #virtualenvwrapper
-export WORKON_HOME=$HOME/.virtualenvs
-export PROJECT_HOME=$HOME/workspace
-source /usr/local/bin/virtualenvwrapper.sh
+#export WORKON_HOME=$HOME/.virtualenvs
+#export PROJECT_HOME=$HOME/workspace
+#source /usr/local/bin/virtualenvwrapper.sh
 
 # workon alias
 #alias workon $arg = workon & cd $PROJECT_HOME/$arg
