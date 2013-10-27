@@ -185,9 +185,9 @@ alias gvims="mvim --remote-silent"
 export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 
 #virtualenvwrapper
-#export WORKON_HOME=$HOME/.virtualenvs
-#export PROJECT_HOME=$HOME/workspace
-#source /usr/local/bin/virtualenvwrapper.sh
+export WORKON_HOME=$HOME/.virtualenvs
+export PROJECT_HOME=$HOME/workspace
+source /usr/local/bin/virtualenvwrapper.sh
 
 # workon alias
 #alias workon $arg = workon & cd $PROJECT_HOME/$arg
