@@ -180,10 +180,6 @@ alias vims='vim --remote-silent'
 alias gvims="mvim --remote-silent"
 #}}}
 
-# rvm
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" # Load RVM function
-export PATH=/opt/local/bin:/opt/local/sbin:$PATH
-
 #virtualenvwrapper
 export WORKON_HOME=$HOME/.virtualenvs
 export PROJECT_HOME=$HOME/workspace
@@ -194,10 +190,18 @@ source /usr/local/bin/virtualenvwrapper.sh
 em () { workon $1 & cd $PROJECT_HOME/$1 }
 
 # rvm 
-if [ -f $HOME/.rvm/scripts/rvm ]
-then
-  source $HOME/.rvm/scripts/rvm
-fi
+#[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" # Load RVM function
+#export PATH=/opt/local/bin:/opt/local/sbin:$PATH
+
+#if [ -f $HOME/.rvm/scripts/rvm ]
+#then
+  #source $HOME/.rvm/scripts/rvm
+#fi
+
+# chruby
+[ -n "$BASH_VERSION" ] || [ -n "$ZSH_VERSION" ] || return
+source /usr/local/opt/chruby/share/chruby/chruby.sh
+source /usr/local/opt/chruby/share/chruby/auto.sh
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH:/usr/local/sbin"
