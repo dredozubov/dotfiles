@@ -203,6 +203,10 @@ em () { workon $1 & cd $PROJECT_HOME/$1 }
 source /usr/local/opt/chruby/share/chruby/chruby.sh
 source /usr/local/opt/chruby/share/chruby/auto.sh
 
+# ruby-build
+# read with readline by default, depends on brew
+export RUBY_CONFIGURE_OPTS=--with-readline-dir=`brew --prefix readline`
+
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH:/usr/local/sbin"
 
