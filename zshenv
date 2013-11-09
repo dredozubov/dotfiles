@@ -23,9 +23,18 @@ source /usr/local/bin/virtualenvwrapper.sh
 #fi
 
 # chruby
-[ -n "$BASH_VERSION" ] || [ -n "$ZSH_VERSION" ] || return
-source /usr/local/opt/chruby/share/chruby/chruby.sh
-source /usr/local/opt/chruby/share/chruby/auto.sh
+if [[ -e /usr/local/share/chruby ]]; then
+  # Load chruby
+  source '/usr/local/share/chruby/chruby.sh'
+
+  # Automatically switch rubies
+  source '/usr/local/share/chruby/auto.sh'
+
+  # Set a default ruby if a .ruby-version file exists in the home dir
+  if [[ -f ~/.ruby-version ]]; then
+    chruby $(cat ~/.ruby-version)
+  fi
+fi
 
 # ruby-build
 # read with readline by default, depends on brew
