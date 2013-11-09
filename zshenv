@@ -1,16 +1,8 @@
-export PATH=$PATH:/sbin
 export JAVA_HOME=/usr
-export PATH=~/depot_tools:"$PATH"
-export EC2_HOME=~/ec2-api-tools-1.3-51254/
-export EC2_PRIVATE_KEY=~/.ec2/pk-65BZDAH6S66LSI4XSEISOMGKOEE2WD62.pem
-export EC2_CERT=~/.ec2/cert-65BZDAH6S66LSI4XSEISOMGKOEE2WD62.pem 
+# chrome/chromium tools
+#export PATH=~/depot_tools:"$PATH"
 export no_proxy="localhost,*.loc,127.0.0.0/8,192.168.0.0/16"
 export EDITOR="vim"
-
-#virtualenvwrapper
-export WORKON_HOME=$HOME/.virtualenvs
-export PROJECT_HOME=$HOME/workspace
-source /usr/local/bin/virtualenvwrapper.sh
 
 # rvm 
 #PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
@@ -48,3 +40,9 @@ export PATH="/usr/local/bin:$PATH"
 
 # git ^ fix
 setopt NO_NOMATCH
+
+#virtualenvwrapper
+export WORKON_HOME=$HOME/.virtualenvs
+export PROJECT_HOME=$HOME/workspace
+source /usr/local/bin/virtualenvwrapper.sh
+
