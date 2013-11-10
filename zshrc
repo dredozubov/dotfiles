@@ -1,3 +1,23 @@
+# bash completion
+autoload bashcompinit
+bashcompinit
+
+# brew and other Stuff
+# i hate it, but it must be included in zshrc, not zshenv
+export PATH="/usr/local/bin:$PATH"
+
+# virtualenvwrapper
+# it uses script from /usr/local/bin, so it's here
+export WORKON_HOME=$HOME/.venv
+if [ -f /usr/local/bin/virtualenvwrapper.sh ]; then
+    source /usr/local/bin/virtualenvwrapper.sh
+fi
+ 
+# bash completion
+if [ -f `brew --prefix`/etc/bash_completion ]; then
+     . `brew --prefix`/etc/bash_completion
+fi
+
 export WORDCHARS='*?_[]~=&;!#$%^(){}'
 
 autoload -U compinit promptinit

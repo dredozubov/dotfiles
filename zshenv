@@ -39,8 +39,3 @@ fi
 # git ^ fix
 setopt NO_NOMATCH
 
-#virtualenvwrapper
-export WORKON_HOME=$HOME/.virtualenvs
-export PROJECT_HOME=$HOME/workspace
-source /usr/local/bin/virtualenvwrapper.sh
-
