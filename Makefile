@@ -8,4 +8,5 @@ install:
 	ln -sfn `pwd`/ruby-version ~/.ruby-version
 
 set_paths:
+	#homebrew stuff: ctags/other brewed software
 	sudo sh -c 'echo /usr/local/bin > /etc/paths.d/brew'

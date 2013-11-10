@@ -4,9 +4,6 @@ export JAVA_HOME=/usr
 export no_proxy="localhost,*.loc,127.0.0.0/8,192.168.0.0/16"
 export EDITOR="vim"
 
-# needed for ruby brew helper below
-export PATH=/usr/local/bin:$PATH
-
 # rvm 
 #PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 #[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" # Load RVM function
@@ -36,12 +33,6 @@ fi
 # first part of command checks brew availability
 command -v brew >/dev/null 2>&1 && export RUBY_CONFIGURE_OPTS=--with-readline-dir=`brew --prefix readline`
 
-### Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH:/usr/local/sbin"
-
-# ctags and other brewed software
-export PATH="/usr/local/bin:$PATH"
-
 # git ^ fix
 setopt NO_NOMATCH
 
@@ -49,4 +40,7 @@ setopt NO_NOMATCH
 export WORKON_HOME=$HOME/.virtualenvs
 export PROJECT_HOME=$HOME/workspace
 source /usr/local/bin/virtualenvwrapper.sh
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH:/usr/local/sbin"
 
