@@ -1,4 +1,4 @@
-all: install set_paths
+all: install
 
 install:
 	ln -sfn `pwd`/Sublime\ Text\ 2 ~/Library/Application\ Support/Sublime\ Text\ 2
@@ -6,7 +6,3 @@ install:
 	ln -sfn `pwd`/zshrc ~/.zshrc
 	ln -sfn `pwd`/zshenv ~/.zshenv
 	ln -sfn `pwd`/ruby-version ~/.ruby-version
-
-set_paths:
-	#homebrew stuff: ctags/other brewed software
-	sudo sh -c 'echo /usr/local/bin > /etc/paths.d/brew'

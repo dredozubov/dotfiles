@@ -1,14 +1,17 @@
-export JAVA_HOME=/usr
+# PATH additions
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH:/usr/local/sbin"
 # chrome/chromium tools
 #export PATH=~/depot_tools:"$PATH"
-export no_proxy="localhost,*.loc,127.0.0.0/8,192.168.0.0/16"
+# rvm
+#export PATH=/opt/local/bin:/opt/local/sbin:$PATH:$HOME/.rvm/bin
+
+export JAVA_HOME=/usr
 export EDITOR="vim"
 
 # rvm 
-#PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 #[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" # Load RVM function
-#export PATH=/opt/local/bin:/opt/local/sbin:$PATH
-
 #if [ -f $HOME/.rvm/scripts/rvm ]
 #then
   #source $HOME/.rvm/scripts/rvm
@@ -31,7 +34,7 @@ fi
 # ruby-build
 # read with readline by default, depends on brew
 # first part of command checks brew availability
-command -v brew >/dev/null 2>&1 && export RUBY_CONFIGURE_OPTS=--with-readline-dir=`brew --prefix readline`
+[[ -s "/usr/local/bin/brew" ]] && export RUBY_CONFIGURE_OPTS=--with-readline-dir=`brew --prefix readline`
 
 # git ^ fix
 setopt NO_NOMATCH
@@ -40,7 +43,4 @@ setopt NO_NOMATCH
 export WORKON_HOME=$HOME/.virtualenvs
 export PROJECT_HOME=$HOME/workspace
 source /usr/local/bin/virtualenvwrapper.sh
-
-### Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH:/usr/local/sbin"
 
