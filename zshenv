@@ -33,7 +33,8 @@ fi
 
 # ruby-build
 # read with readline by default, depends on brew
-export RUBY_CONFIGURE_OPTS=--with-readline-dir=`brew --prefix readline`
+# first part of command checks brew availability
+command -v brew >/dev/null 2>&1 && export RUBY_CONFIGURE_OPTS=--with-readline-dir=`brew --prefix readline`
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH:/usr/local/sbin"
