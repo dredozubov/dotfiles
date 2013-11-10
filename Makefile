@@ -5,5 +5,5 @@ install:
 	ln -sfn `pwd`/zshenv ~/.zshenv
 	ln -sfn `pwd`/ruby-version ~/.ruby-version
 
-set_etc_paths:
-	ln -sfn `pwd`/paths /etc/paths
+#set_etc_paths:
+	#sudo sh -c 'echo <path to app> > /etc/paths.d/<app name>'
