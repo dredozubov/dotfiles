@@ -4,6 +4,9 @@ export JAVA_HOME=/usr
 export no_proxy="localhost,*.loc,127.0.0.0/8,192.168.0.0/16"
 export EDITOR="vim"
 
+# needed for ruby brew helper below
+export PATH=/usr/local/bin:$PATH
+
 # rvm 
 #PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 #[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" # Load RVM function
