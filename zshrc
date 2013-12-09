@@ -18,6 +18,11 @@ if [ -f `brew --prefix`/etc/bash_completion ]; then
      . `brew --prefix`/etc/bash_completion
 fi
 
+# default python virtualenv
+if [ -f "$HOME/.venv/py27/bin/activate" ]; then
+    source $HOME/.venv/py27/bin/activate
+fi
+
 export WORDCHARS='*?_[]~=&;!#$%^(){}'
 
 autoload -U compinit promptinit
