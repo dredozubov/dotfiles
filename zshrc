@@ -49,6 +49,7 @@ zle_highlight=(isearch:bg=red region:standout special:standout)
 #{{{ ALIASES
 # Utility
 alias reload='source ~/.zshrc'
+alias updatedb='sudo /usr/libexec/locate.updatedb'
 
 # os x - finder
 alias o="open . &"
