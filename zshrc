@@ -23,8 +23,6 @@ if [ -f "$HOME/.venv/py27/bin/activate" ]; then
     source $HOME/.venv/py27/bin/activate
 fi
 
-export WORDCHARS='*?_[]~=&;!#$%^(){}'
-
 autoload -U compinit promptinit
 compinit
 promptinit
