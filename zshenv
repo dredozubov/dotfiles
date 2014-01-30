@@ -39,3 +39,5 @@ fi
 # git ^ fix
 setopt NO_NOMATCH
 
+# add cabal to PATH
+PATH=$HOME/.cabal/bin:$PATH
