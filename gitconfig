@@ -7,7 +7,12 @@
 	ui = true
 [merge]
 	conflictstyle = diff3
+	tool = diffconflicts
 [alias]
 	latest = for-each-ref --count=10 --sort=-committerdate --format='%(committerdate:relative) %(refname:short)'
 [rerere]
 	enabled = 1
+[mergetool "diffconflicts"]
+	cmd = diffconflicts vim $BASE $LOCAL $REMOTE $MERGED
+	trustExitCode = true
+	keepBackup = false
