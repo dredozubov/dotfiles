@@ -2,6 +2,8 @@
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH:/usr/local/sbin"
+# cabal
+export PATH="$HOME/.cabal/bin:$PATH"
 # chrome/chromium tools
 #export PATH=~/depot_tools:"$PATH"
 # rvm
