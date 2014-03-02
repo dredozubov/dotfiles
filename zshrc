@@ -5,6 +5,8 @@ bashcompinit
 # brew and other Stuff
 # i hate it, but it must be included in zshrc, not zshenv
 export PATH="/usr/local/bin:$PATH"
+# cabal
+export PATH="$HOME/.cabal/bin:$PATH"
 
 # virtualenvwrapper
 # it uses script from /usr/local/bin, so it's here
