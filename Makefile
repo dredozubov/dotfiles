@@ -6,3 +6,4 @@ install:
 	ln -sfn `pwd`/zshrc ~/.zshrc
 	ln -sfn `pwd`/zshenv ~/.zshenv
 	ln -sfn `pwd`/ruby-version ~/.ruby-version
+	ln -sfn `pwd`/ghci ~/.ghci
