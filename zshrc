@@ -55,6 +55,7 @@ zle_highlight=(isearch:bg=red region:standout special:standout)
 # Utility
 alias reload='source ~/.zshrc'
 alias updatedb='sudo /usr/libexec/locate.updatedb'
+alias xmlpp='xmllint --format -'
 
 # os x - finder
 alias o="open . &"
