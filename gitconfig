@@ -7,9 +7,10 @@
 	ui = true
 [merge]
 	conflictstyle = diff3
-	tool = diffconflicts
+	tool = vimdiff
 [alias]
 	latest = for-each-ref --count=10 --sort=-committerdate --format='%(committerdate:relative) %(refname:short)'
+	amend = commit --amend -C HEAD
 [rerere]
 	enabled = 1
 [mergetool "diffconflicts"]
@@ -17,4 +18,4 @@
 	trustExitCode = true
 	keepBackup = false
 [push]
-	default = matching
+	default = current
