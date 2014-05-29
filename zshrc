@@ -157,6 +157,18 @@ zstyle ':completion::approximate*:*' prefix-needed false
 
 #}}}
 
+#{{{ cabal sandbox status
+function cabal_sandbox_info() {
+    cabal_files=(*.cabal(N))
+    if [ $#cabal_files -gt 0 ]; then
+        if [ -f cabal.sandbox.config ]; then
+            echo "%{$fg[green]%}sandboxed%{$reset_color%}"
+        else
+            echo "%{$fg[red]%}not sandboxed%{$reset_color%}"
+        fi
+    fi
+}
+#}}}
 
 #{{{ PROMPT
 local blue_op="%{$fg[blue]%}[%{$reset_color%}"
@@ -177,6 +189,8 @@ local cur_cmd="${blue_op}%_${blue_cp}"
 PROMPT="%(!.${root_host}.${user_host})-${ret_status}-${date_time}
 ${blue_op}${smiley}${blue_cp} ${path_p} %# "
 PROMPT2="${cur_cmd}> "
+ 
+RPROMPT="\$(cabal_sandbox_info) $RPROMPT"
 #}}}
 
 #{{{ BINDINGS
