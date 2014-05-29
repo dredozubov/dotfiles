@@ -11,6 +11,8 @@
 [alias]
 	latest = for-each-ref --count=10 --sort=-committerdate --format='%(committerdate:relative) %(refname:short)'
 	amend = commit --amend -C HEAD
+  hist = log --graph --full-history --all --color --pretty=format:"%x1b[31m%h%x09%x1b[32m%d%x1b[0m%x20%s"
+  graph = log --graph --full-history --all --pretty=format:"%h%x09%d%x20%s"
 [rerere]
 	enabled = 1
 [mergetool "diffconflicts"]
