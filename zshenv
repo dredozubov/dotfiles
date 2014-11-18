@@ -10,7 +10,7 @@ export PATH="/usr/local/heroku/bin:$PATH:/usr/local/sbin"
 export JAVA_HOME=/usr
 export EDITOR="vim"
 
-# rvm 
+# rvm
 #[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" # Load RVM function
 #if [ -f $HOME/.rvm/scripts/rvm ]
 #then
@@ -41,3 +41,6 @@ setopt NO_NOMATCH
 
 # add cabal to PATH
 PATH=$HOME/.cabal/bin:$PATH
+
+# ghc arcanist
+export PATH="$HOME/workspace/arcanist/bin:$PATH"
