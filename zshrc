@@ -1,12 +1,13 @@
-# bash completion
-autoload bashcompinit
+# bash completion autoload bashcompinit
 bashcompinit
 
 # brew and other Stuff
 # i hate it, but it must be included in zshrc, not zshenv
 export PATH="/usr/local/bin:$PATH"
 # cabal
-export PATH="$HOME/.cabal/bin:$PATH"
+export PATH="$HOME/.cabal/bin:$HOME/Library/Haskell/bin:$PATH"
+# stack
+export PATH="$HOME/.local/bin/:$PATH"
 
 # virtualenvwrapper
 # it uses script from /usr/local/bin, so it's here
@@ -14,7 +15,7 @@ export WORKON_HOME=$HOME/.venv
 if [ -f /usr/local/bin/virtualenvwrapper.sh ]; then
     source /usr/local/bin/virtualenvwrapper.sh
 fi
- 
+
 # bash completion
 if [ -f `brew --prefix`/etc/bash_completion ]; then
      . `brew --prefix`/etc/bash_completion
@@ -71,12 +72,13 @@ alias tm="top -o vsize"
 
 # kill
 alias k9="killall -9"
-function killnamed () { 
-    ps ax | grep $1 | cut -d ' ' -f 2 | xargs kill 
+function killnamed () {
+    ps ax | grep $1 | cut -d ' ' -f 2 | xargs kill
 }
 
 # git
 alias g="git status"
+alias gu="git status -uno"
 alias ga="git add"
 alias gb="git branch"
 alias gba="git branch -a"
@@ -106,6 +108,19 @@ alias bi="bundle install"
 
 alias ls='ls -aG'
 alias less='less -R'
+
+#docker
+function docker-start () {
+  VM=$1 /Applications/Docker/Docker\ Quickstart\ Terminal.app/Contents/Resources/Scripts/start.sh
+}
+
+function docker-restart () {
+  docker-machine restart $1
+  local command="docker-machine env $1"
+  echo "reloading docker env"
+  eval $command
+  echo "complete"
+}
 #}}}
 
 #{{{ Completion Stuff
@@ -189,8 +204,8 @@ local cur_cmd="${blue_op}%_${blue_cp}"
 PROMPT="%(!.${root_host}.${user_host})-${ret_status}-${date_time}
 ${blue_op}${smiley}${blue_cp} ${path_p} %# "
 PROMPT2="${cur_cmd}> "
- 
-RPROMPT="\$(cabal_sandbox_info) $RPROMPT"
+
+#RPROMPT="\$(cabal_sandbox_info) $RPROMPT"
 #}}}
 
 #{{{ BINDINGS
@@ -216,3 +231,29 @@ alias gvims="mvim --remote-silent"
 #alias workon $arg = workon & cd $PROJECT_HOME/$arg
 em () { workon $1 & cd $PROJECT_HOME/$1 }
 
+# nix env
+#if [ -e /Users/dr/.nix-profile/etc/profile.d/nix.sh ]; then . /Users/dr/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
+
+# use my own nixpkgs fork
+# export NIX_PATH=nixpkgs=/Users/dr/workspace/nixpkgs
+
+# old docker
+# $(boot2docker shellinit)
+
+# OPAM configuration
+. /Users/dr/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
+
+# ssh-tmux helper
+function ssht () {/usr/bin/ssh -t $@ "tmux attach || tmux new";}
+
+PERL_MB_OPT="--install_base \"/Users/dr/perl5\""; export PERL_MB_OPT;
+PERL_MM_OPT="INSTALL_BASE=/Users/dr/perl5"; export PERL_MM_OPT;
+
+# fix iterm2 and os x ssh/locale issues
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
+
+source ~/.secret_env
+
+# added by travis gem
+[ -f /Users/dr/.travis/travis.sh ] && source /Users/dr/.travis/travis.sh

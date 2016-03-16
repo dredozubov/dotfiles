@@ -3,8 +3,20 @@
 	email = denis.redozubov@gmail.com
 [core]
 	editor = /usr/bin/vim
+	pager = /usr/local/share/git-core/contrib/diff-highlight/diff-highlight | less
 [color]
-	ui = true
+	ui = always
+	commit = green
+	meta = yellow
+	frag = cyan
+	old = red
+	new = green
+	whitespace = red reverse
+[color "diff-highlight"]
+	oldNormal = red bold
+	oldHighlight = red bold 52
+	newNormal = green bold
+	newHighlight = green bold 22
 [merge]
 	conflictstyle = diff3
 	tool = vimdiff
@@ -21,3 +33,17 @@
 	keepBackup = false
 [push]
 	default = current
+[url "git://github.com/ghc/packages-"]
+	insteadOf = git://github.com/ghc/packages/
+[url "http://github.com/ghc/packages-"]
+	insteadOf = http://github.com/ghc/packages/
+[url "https://github.com/ghc/packages-"]
+	insteadOf = https://github.com/ghc/packages/
+[url "ssh://git@github.com/ghc/packages-"]
+	insteadOf = ssh://git@github.com/ghc/packages/
+[url "git@github.com:/ghc/packages-"]
+	insteadOf = git@github.com:/ghc/packages/
+[filter "lfs"]
+	smudge = git-lfs smudge %f
+	required = true
+	clean = git-lfs clean %f
