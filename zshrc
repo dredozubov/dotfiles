@@ -257,3 +257,6 @@ source ~/.secret_env
 
 # added by travis gem
 [ -f /Users/dr/.travis/travis.sh ] && source /Users/dr/.travis/travis.sh
+
+# gopath
+export GOPATH="$HOME/golang/"
