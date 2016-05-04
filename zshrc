@@ -260,3 +260,8 @@ source ~/.secret_env
 
 # gopath
 export GOPATH="$HOME/golang/"
+
+# ansible
+export ANSIBLE_NOCOWS=1
+
+ssh-add ~/.ssh/id_rsa
