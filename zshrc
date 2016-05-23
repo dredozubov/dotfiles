@@ -265,3 +265,5 @@ export GOPATH="$HOME/golang/"
 export ANSIBLE_NOCOWS=1
 
 ssh-add ~/.ssh/id_rsa
+
+eval `keychain --eval id_rsa`
