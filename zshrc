@@ -77,8 +77,8 @@ function killnamed () {
 }
 
 # git
-alias g="git status"
-alias gu="git status -uno"
+alias gu="git status"
+alias g="git status -uno"
 alias ga="git add"
 alias gb="git branch"
 alias gba="git branch -a"
@@ -267,3 +267,22 @@ export ANSIBLE_NOCOWS=1
 ssh-add ~/.ssh/id_rsa
 
 eval `keychain --eval id_rsa`
+
+# use stack installed ghc7.10.3
+export PATH=/Users/dr/.stack/programs/x86_64-osx/ghc-7.10.3/bin/:$PATH
+
+# this is suggested by the latest nix
+. /Users/dr/.nix-profile/etc/profile.d/nix.sh
+
+alias notify-done='terminal-notifier -title "Terminal" -message "Done with task!"'
+
+export NVM_DIR="/Users/dr/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+
+# homebrew openssl
+export LDFLAGS=-L/usr/local/opt/openssl/lib
+export CPPFLAGS=-I/usr/local/opt/openssl/include
+export PKG_CONFIG_PATH=/usr/local/opt/openssl/lib/pkgconfig
+
+# hasktags
+alias mkhasktags='hasktags --ignore-close-implementation --etags .; sort tags'

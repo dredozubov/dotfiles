@@ -34,7 +34,7 @@ fi
 # ruby-build
 # read with readline by default, depends on brew
 # first part of command checks brew availability
-[[ -s "/usr/local/bin/brew" ]] && export RUBY_CONFIGURE_OPTS=--with-readline-dir=`brew --prefix readline`
+#[[ -s "/usr/local/bin/brew" ]] && export RUBY_CONFIGURE_OPTS=--with-readline-dir=`brew --prefix readline`
 
 # git ^ fix
 setopt NO_NOMATCH

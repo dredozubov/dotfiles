@@ -27,6 +27,7 @@
   graph = log --graph --full-history --all --pretty=format:"%h%x09%d%x20%s"
 [rerere]
 	enabled = 1
+	autoupdate = true
 [mergetool "diffconflicts"]
 	cmd = diffconflicts vim $BASE $LOCAL $REMOTE $MERGED
 	trustExitCode = true
