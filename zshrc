@@ -285,4 +285,7 @@ export CPPFLAGS=-I/usr/local/opt/openssl/include
 export PKG_CONFIG_PATH=/usr/local/opt/openssl/lib/pkgconfig
 
 # hasktags
-alias mkhasktags='hasktags --ignore-close-implementation --etags .; sort tags'
+# alias mkhasktags='hasktags --ignore-close-implementation --etags .; sort tags'
+
+# ignores intero directories and other artifacts
+alias mkhasktags='hasktags -e $(find `pwd` -iname '*.hs' -and \( -not -path '*.stack-work*' \) -and \( -not -name 'Setup.hs' \) -and -type f)'
