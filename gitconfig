@@ -25,6 +25,8 @@
 	amend = commit --amend -C HEAD
   hist = log --graph --full-history --all --color --pretty=format:"%x1b[31m%h%x09%x1b[32m%d%x1b[0m%x20%s"
   graph = log --graph --full-history --all --pretty=format:"%h%x09%d%x20%s"
+	up = pull --rebase --autostash
+	pullall = "!f(){ git pull --ff-only \"$@\" && git submodule update --init --recursive; }; f"
 [rerere]
 	enabled = 1
 	autoupdate = true
@@ -45,6 +47,9 @@
 [url "git@github.com:/ghc/packages-"]
 	insteadOf = git@github.com:/ghc/packages/
 [filter "lfs"]
-	smudge = git-lfs smudge %f
+	smudge = git-lfs smudge -- %f
 	required = true
-	clean = git-lfs clean %f
+	clean = git-lfs clean -- %f
+	process = git-lfs filter-process
+[diff]
+	submodule = log

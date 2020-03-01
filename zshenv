@@ -1,21 +1,7 @@
 # PATH additions
 
-### Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH:/usr/local/sbin"
-# chrome/chromium tools
-#export PATH=~/depot_tools:"$PATH"
-# rvm
-#export PATH=/opt/local/bin:/opt/local/sbin:$PATH:$HOME/.rvm/bin
-
 export JAVA_HOME=/usr
 export EDITOR="vim"
-
-# rvm
-#[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" # Load RVM function
-#if [ -f $HOME/.rvm/scripts/rvm ]
-#then
-  #source $HOME/.rvm/scripts/rvm
-#fi
 
 # chruby
 if [[ -e /usr/local/share/chruby ]]; then

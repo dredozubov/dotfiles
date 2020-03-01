@@ -1,5 +1,5 @@
-# bash completion autoload bashcompinit
-bashcompinit
+## enable it to profile the zsh init
+# zmodload zsh/zprof
 
 # brew and other Stuff
 # i hate it, but it must be included in zshrc, not zshenv
@@ -7,24 +7,15 @@ export PATH="/usr/local/bin:$PATH"
 # cabal
 export PATH="$HOME/.cabal/bin:$HOME/Library/Haskell/bin:$PATH"
 # stack
-export PATH="$HOME/.local/bin/:$PATH"
-
-# virtualenvwrapper
-# it uses script from /usr/local/bin, so it's here
-export WORKON_HOME=$HOME/.venv
-if [ -f /usr/local/bin/virtualenvwrapper.sh ]; then
-    source /usr/local/bin/virtualenvwrapper.sh
-fi
+export PATH="$HOME/.local/bin:$PATH"
 
 # bash completion
 if [ -f `brew --prefix`/etc/bash_completion ]; then
      . `brew --prefix`/etc/bash_completion
 fi
 
-# default python virtualenv
-if [ -f "$HOME/.venv/py27/bin/activate" ]; then
-    source $HOME/.venv/py27/bin/activate
-fi
+# python miniconda
+# source /Users/dr/miniconda3/bin/activate
 
 autoload -U compinit promptinit
 compinit
@@ -77,8 +68,8 @@ function killnamed () {
 }
 
 # git
-alias gu="git status"
 alias g="git status -uno"
+alias gu="git status"
 alias ga="git add"
 alias gb="git branch"
 alias gba="git branch -a"
@@ -92,7 +83,6 @@ alias gnp="git-notpushed"
 alias gp='git push'
 alias gst='git status'
 alias gt='git status'
-alias g='git status'
 alias gg='git grep'
 
 # grep
@@ -108,20 +98,6 @@ alias bi="bundle install"
 
 alias ls='ls -aG'
 alias less='less -R'
-
-#docker
-function docker-start () {
-  VM=$1 /Applications/Docker/Docker\ Quickstart\ Terminal.app/Contents/Resources/Scripts/start.sh
-}
-
-function docker-restart () {
-  docker-machine restart $1
-  local command="docker-machine env $1"
-  echo "reloading docker env"
-  eval $command
-  echo "complete"
-}
-#}}}
 
 #{{{ Completion Stuff
 _force_rehash() {
@@ -172,19 +148,6 @@ zstyle ':completion::approximate*:*' prefix-needed false
 
 #}}}
 
-#{{{ cabal sandbox status
-function cabal_sandbox_info() {
-    cabal_files=(*.cabal(N))
-    if [ $#cabal_files -gt 0 ]; then
-        if [ -f cabal.sandbox.config ]; then
-            echo "%{$fg[green]%}sandboxed%{$reset_color%}"
-        else
-            echo "%{$fg[red]%}not sandboxed%{$reset_color%}"
-        fi
-    fi
-}
-#}}}
-
 #{{{ PROMPT
 local blue_op="%{$fg[blue]%}[%{$reset_color%}"
 local blue_cp="%{$fg[blue]%}]%{$reset_color%}"
@@ -231,15 +194,6 @@ alias gvims="mvim --remote-silent"
 #alias workon $arg = workon & cd $PROJECT_HOME/$arg
 em () { workon $1 & cd $PROJECT_HOME/$1 }
 
-# nix env
-#if [ -e /Users/dr/.nix-profile/etc/profile.d/nix.sh ]; then . /Users/dr/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
-
-# use my own nixpkgs fork
-# export NIX_PATH=nixpkgs=/Users/dr/workspace/nixpkgs
-
-# old docker
-# $(boot2docker shellinit)
-
 # OPAM configuration
 . /Users/dr/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
 
@@ -265,27 +219,77 @@ export GOPATH="$HOME/golang/"
 export ANSIBLE_NOCOWS=1
 
 ssh-add ~/.ssh/id_rsa
-
-eval `keychain --eval id_rsa`
-
-# use stack installed ghc7.10.3
-export PATH=/Users/dr/.stack/programs/x86_64-osx/ghc-7.10.3/bin/:$PATH
-
-# this is suggested by the latest nix
-. /Users/dr/.nix-profile/etc/profile.d/nix.sh
+ssh-add ~/.ssh/gitlab
 
 alias notify-done='terminal-notifier -title "Terminal" -message "Done with task!"'
-
-export NVM_DIR="/Users/dr/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
 # homebrew openssl
 export LDFLAGS=-L/usr/local/opt/openssl/lib
 export CPPFLAGS=-I/usr/local/opt/openssl/include
 export PKG_CONFIG_PATH=/usr/local/opt/openssl/lib/pkgconfig
 
+# homebrew libicu
+export LDFLAGS="-L/usr/local/opt/icu4c/lib $LDFLAGS"
+export CPPFLAGS="-I/usr/local/opt/icu4c/include $CPPFLAGS"
+
 # hasktags
 # alias mkhasktags='hasktags --ignore-close-implementation --etags .; sort tags'
 
 # ignores intero directories and other artifacts
-alias mkhasktags='hasktags -e $(find `pwd` -iname '*.hs' -and \( -not -path '*.stack-work*' \) -and \( -not -name 'Setup.hs' \) -and -type f)'
+alias mkhasktags='hasktags --ignore-close-implementation --etags $(find `pwd` -iname '*.hs' -and \( -not -path '*.stack-work*' \) -and \( -not -name 'Setup.hs' \) -and -type f) .'
+alias mkhasktags-tinkoff='hasktags --ignore-close-implementation --etags -S.hs platform/ tinkoff-travel'
+alias mkhasktags-b2b='hasktags --ignore-close-implementation --etags -S.hs b2b/ platform/'
+alias mkhasktags-travel246='hasktags --ignore-close-implementation --etags -S.hs travel246/ platform/'
+alias mkhasktags-atcshopper='hasktags --ignore-close-implementation --etags -S.hs atcshopper/ platform/'
+alias mkhasktags-genfly='hasktags --ignore-close-implementatino --etags -S.hs genfly/ platform/'
+alias mkhasktags-ad='hasktags --ignore-close-implementation --etags -S.hs .'
+
+# swap two files/directories
+function swap()
+{
+    local TMPFILE=tmp.$$
+    mv "$1" $TMPFILE
+    mv "$2" "$1"
+    mv $TMPFILE "$2"
+}
+
+export PATH="$HOME/.cargo/bin:$PATH"
+alias cabla='cabal'
+
+export PATH=/Users/dr/.local/bin/luna-studio:$PATH
+
+# google-cloud-sdk completers
+# source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc'
+# source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc'
+
+if which jenv > /dev/null; then eval "$(jenv init -)"; fi
+export PATH="$HOME/.jenv/shims:$PATH"
+
+alias ec='emacsclient -n -a ""'
+alias syscalls='man -k . | grep "(2)"'
+
+export PATH="/usr/local/opt/postgresql@10/bin:$PATH"
+export PATH="/usr/local/opt/postgresql@10/bin:$PATH"
+
+# direnv
+eval "$(direnv hook zsh)"
+
+# os x postgres
+export PGHOST=/tmp
+
+# nix-remote-build b2b
+# alias nix-build-remote='nix-build '"'"'(with import <nixpkgs> { system = "x86_64-darwin"; }; runCommand "" {} "uname > $out")' \ --show-trace --builders 'ssh-ng://b2builder'"'"
+
+# initialize nix 2
+. /Users/dr/.nix-profile/etc/profile.d/nix.sh
+
+# make overlays globally visible
+#export NIX_PATH=$NIX_PATH:/Users/dr/.config/nixpkgs/overlays
+
+# unset it after https://github.com/NixOS/nixpkgs/pull/73744 gets merged
+# generate by running 'make zhsrc' in nix-config
+export NIX_PATH="nixpkgs=/Users/dr/workspace/nix-config/nixpkgs"
+
+# kubernetes
+source <(kubectl completion zsh)  # setup autocomplete in zsh into the current shell
+echo "if [ $commands[kubectl] ]; then source <(kubectl completion zsh); fi" >> ~/.zshrc # add autocomplete permanently to your zsh shell
